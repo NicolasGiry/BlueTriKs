@@ -27,7 +27,7 @@ public class Main extends JFrame {
     JSpinner partSpinner;
 
     public Main() {
-        super("Initialisation Clavier Logiciel");
+        super("Initialisation BlueTriKs");
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
         setPreferredSize(new Dimension(LONGUEUR, HAUTEUR));
 

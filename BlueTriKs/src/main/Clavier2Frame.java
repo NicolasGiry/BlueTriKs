@@ -20,7 +20,7 @@ public class Clavier2Frame extends JFrame{
 	private JLabel textModelLabel;
 	
 	public Clavier2Frame(Mode mode, ResultsWordPrediction wp, int nbPart) {
-		super("Clavier Logiciel");
+		super("BlueTriKs");
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
         ImageIcon icon = new ImageIcon("Files/icone.png");
         setIconImage(icon.getImage());
