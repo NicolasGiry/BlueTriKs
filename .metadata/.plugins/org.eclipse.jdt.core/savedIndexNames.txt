@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\nicol\OneDrive\Documents\Cours\S6\BE\ClavierLogicielEclipse\.metadata\.plugins\org.eclipse.jdt.core
+1494249614.index
+1865797976.index
+1850464390.index
