@@ -65,8 +65,8 @@ public class XMLReader {
                         String phrase = element.getAttribute("string");
                         NodeList attributs = element.getChildNodes();
                         boolean finMot = false;
-                        double temps_depart = Double.parseDouble(element.getAttribute("t")), temps=0, distance = 0;
-                        int nb_error = 0, nb_predicted_used = 0, x, y, oldX=-1, oldY=-1;
+                        double temps_depart = Double.parseDouble(element.getAttribute("t")), temps=0, distance = 0, centerKeyDistance = 0;
+                        int nb_error = 0, nb_predicted_used = 0, x, y, oldX=-1, oldY=-1, xSouris, ySouris;
                         String phraseTapee = "";
                         parser.txtFile.write(settingsString);
                         for (int j=0; j<attributs.getLength(); j++) {
@@ -84,7 +84,8 @@ public class XMLReader {
                                 }                                                                                           //
                                 parser.txtFile.write(phraseTapee.length()/(temps/1000)+";");                                // CharParSec
                                 parser.txtFile.write(distance+";");                                                          // Distance
-                                parser.txtFile.write((nbActions/((float)phraseTapee.length()))+"");
+                                parser.txtFile.write((nbActions/((float)phraseTapee.length()))+";");
+                                parser.txtFile.write((centerKeyDistance/((float)phraseTapee.length()))+"");
                                 parser.txtFile.write(settingsString);
                                 finMot = false;
                                 phraseTapee = "";
@@ -92,6 +93,7 @@ public class XMLReader {
                                 nb_error = 0; nb_predicted_used = 0; oldX=-1; oldY=-1;
                                 debutMot = totalLenght;
                                 nbActions = 0;
+                                centerKeyDistance = 0;
                             } else {
                                 Node attribut = attributs.item(j);
                                 if (attribut.getNodeType() == Node.ELEMENT_NODE && attribut.getNodeName().equals("SelectionCaractere")) {
@@ -125,6 +127,10 @@ public class XMLReader {
                                     } 
                                     oldX = x;
                                     oldY = y;
+                                    xSouris = Integer.parseInt(attributElement.getAttribute("xSouris"));
+                                    ySouris = Integer.parseInt(attributElement.getAttribute("ySouris"));
+                                    centerKeyDistance += Math.sqrt((xSouris-x)*(xSouris-x) + (ySouris-y)*(ySouris-y));
+                                    System.out.println("("+attributElement.getAttribute("name")+") Distance : "+ Math.sqrt((xSouris-x)*(xSouris-x) + (ySouris-y)*(ySouris-y)));
                                 }
                             }
                         }
@@ -141,7 +147,8 @@ public class XMLReader {
                         }
                         parser.txtFile.write(phraseTapee.length()/(temps/1000)+";");
                         parser.txtFile.write(distance+";");
-                        parser.txtFile.write((nbActions/((float)phraseTapee.length()))+"");
+                        parser.txtFile.write((nbActions/((float)phraseTapee.length()))+";");
+                        parser.txtFile.write((centerKeyDistance/((float)phraseTapee.length()))+"");
                     }
                 }
             }
@@ -183,8 +190,8 @@ public class XMLReader {
                         String phrase = phraseElement.getAttribute("string");
                         parser.txtFile.write(phrase+";");
                         parser.txtFile.write(phrase.length()+";");
-                        double temps_depart = Double.parseDouble(phraseElement.getAttribute("t")), temps=0, distance = 0;
-                        int nb_error = 0, nb_predicted_used = 0, x, y, oldX=-1, oldY=-1;
+                        double temps_depart = Double.parseDouble(phraseElement.getAttribute("t")), temps=0, distance = 0, centerKeyDistance = 0;
+                        int nb_error = 0, nb_predicted_used = 0, x, y, oldX=-1, oldY=-1, xSouris, ySouris;
                         NodeList attributs = phraseElement.getChildNodes();
                         String phraseTapee = "";
                         for (int j=0; j<attributs.getLength(); j++) {
@@ -213,6 +220,9 @@ public class XMLReader {
                                 } 
                                 oldX = x;
                                 oldY = y;
+                                xSouris = Integer.parseInt(attributElement.getAttribute("xSouris"));
+                                ySouris = Integer.parseInt(attributElement.getAttribute("ySouris"));
+                                centerKeyDistance += Math.sqrt((xSouris-x)*(xSouris-x) + (ySouris-y)*(ySouris-y));
                             }
                         }
                         parser.txtFile.write((temps/1000)+";");
@@ -226,7 +236,8 @@ public class XMLReader {
                         }
                         parser.txtFile.write(phraseTapee.length()/(temps/1000)+";");
                         parser.txtFile.write(distance+";");
-                        parser.txtFile.write((nbActions/((float)phraseTapee.length()))+"");
+                        parser.txtFile.write((nbActions/((float)phraseTapee.length()))+";");
+                        parser.txtFile.write((centerKeyDistance/((float)phraseTapee.length()))+"");
                     }
                 }
             }
@@ -256,7 +267,7 @@ public class XMLReader {
 			e.printStackTrace();
 		}
         try {
-			parser.txtFile.write("Keyboard;Mode;Participant;Phrase;NbChar;Duree;Correct;NbErrors;NbPredictionUsed;predCharRatio;CharParSec;Distance;KSPC");
+			parser.txtFile.write("Keyboard;Mode;Participant;Phrase;NbChar;Duree;Correct;NbErrors;NbPredictionUsed;predCharRatio;CharParSec;Distance;KSPC;centerKeyDistanceMean");
         } catch (IOException e) {
 			e.printStackTrace();
 		}

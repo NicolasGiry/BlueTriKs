@@ -121,7 +121,8 @@ public class Clavier2 extends JComponent implements Observer, MouseListener, Mou
         basic = new SimpleAttributeSet();
         error = new SimpleAttributeSet();
         StyleConstants.setForeground(basic, Color.black);
-        StyleConstants.setForeground(error, Color.red);
+        //StyleConstants.setForeground(error, Color.red);
+        StyleConstants.setForeground(error, Color.black);
 
         if (wp.equals(ResultsWordPrediction.NO_PRED)) {
             letters = lettersNoPred;
