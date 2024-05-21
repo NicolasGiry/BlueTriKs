@@ -130,7 +130,6 @@ public class XMLReader {
                                     xSouris = Integer.parseInt(attributElement.getAttribute("xSouris"));
                                     ySouris = Integer.parseInt(attributElement.getAttribute("ySouris"));
                                     centerKeyDistance += Math.sqrt((xSouris-x)*(xSouris-x) + (ySouris-y)*(ySouris-y));
-                                    System.out.println("("+attributElement.getAttribute("name")+") Distance : "+ Math.sqrt((xSouris-x)*(xSouris-x) + (ySouris-y)*(ySouris-y)));
                                 }
                             }
                         }

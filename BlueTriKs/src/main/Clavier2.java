@@ -43,7 +43,7 @@ public class Clavier2 extends JComponent implements Observer, MouseListener, Mou
 	private List<String> phrases;
     private JTextArea phraseArea;
     private JTextPane textPane;
-    private long timer = 600, depart;
+    private long timer = 60000, depart;
     //                   10 min
     private int currentChar=0;
     private Mode mode;
