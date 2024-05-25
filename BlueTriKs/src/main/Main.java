@@ -11,6 +11,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JSpinner;
+import javax.swing.SpinnerNumberModel;
 
 import logger.ExpeLogger;
 
@@ -20,10 +21,10 @@ public class Main extends JFrame {
 	private static final int SPINNERWIDTH = 50;
 	private static final int SPINNERHEIGHT = 40;
 
-    JLabel modeLabel, clavLabel, partLabel;
-    JRadioButton bTrain, bExp, bClavierPred, bClavierNoPred;
+    JLabel modeLabel, clavLabel, groupLabel, partLabel;
+    JRadioButton bTrain, bExp, bClavierPred, bClavierNoPred, bG1, bG2;
     JButton bvalider;
-    ButtonGroup groupExpTrain, groupClavier;
+    ButtonGroup groupExpTrain, groupClavier, groupGroup;
     JSpinner partSpinner;
 
     public Main() {
@@ -33,21 +34,29 @@ public class Main extends JFrame {
 
         modeLabel = new JLabel("Choisir un mode : ");
         clavLabel = new JLabel("Choisir un clavier : ");
-        partLabel = new JLabel("Choisir un nombre de participant : ");
+        groupLabel = new JLabel("Indiquez votre groupe : ");
+        partLabel = new JLabel("Indiquez votre numéro de participant : ");
         bTrain = new JRadioButton("entrainement");
         bExp = new JRadioButton("experience");
         bClavierPred = new JRadioButton("avec prédiction");
         bClavierNoPred = new JRadioButton("sans prédiction");
+        bG1 = new JRadioButton("groupe 1");
+        bG2 = new JRadioButton("groupe 2");
         groupExpTrain = new ButtonGroup();
         groupClavier = new ButtonGroup();
+        groupGroup = new ButtonGroup();
         bvalider = new JButton("Valider");
-        partSpinner = new JSpinner();
+        SpinnerNumberModel model = new SpinnerNumberModel(1, 1, 12, 1);
+        partSpinner = new JSpinner(model);
 
         JPanel radioModePanel = new JPanel(new BorderLayout());
         JPanel radioClavPanel = new JPanel(new BorderLayout());
+        JPanel radioGroupPanel = new JPanel(new BorderLayout());
         JPanel modelPanel = new JPanel(new BorderLayout());
         JPanel clavierPanel = new JPanel(new BorderLayout());
+        JPanel groupPanel = new JPanel(new BorderLayout());
         JPanel partPanel = new JPanel(new BorderLayout());
+        JPanel intermediatePanel = new JPanel(new BorderLayout());
         JPanel finalPanel = new JPanel(new BorderLayout());
         
         partPanel.setPreferredSize(new Dimension(SPINNERWIDTH, SPINNERHEIGHT));
@@ -55,27 +64,37 @@ public class Main extends JFrame {
         radioModePanel.add(bExp, BorderLayout.CENTER);
         radioClavPanel.add(bClavierPred, BorderLayout.WEST);
         radioClavPanel.add(bClavierNoPred, BorderLayout.CENTER);
+        radioGroupPanel.add(bG1, BorderLayout.WEST);
+        radioGroupPanel.add(bG2, BorderLayout.CENTER);
 
         modelPanel.add(modeLabel, BorderLayout.WEST);
         modelPanel.add(radioModePanel, BorderLayout.CENTER);
         clavierPanel.add(clavLabel, BorderLayout.WEST);
         clavierPanel.add(radioClavPanel, BorderLayout.CENTER);
+        groupPanel.add(groupLabel, BorderLayout.WEST);
+        groupPanel.add(radioGroupPanel, BorderLayout.CENTER);
 
         partPanel.add(partLabel, BorderLayout.WEST);
         partPanel.add(partSpinner, BorderLayout.CENTER);
 
-        finalPanel.add(modelPanel, BorderLayout.NORTH);
-        finalPanel.add(clavierPanel, BorderLayout.CENTER);
-        finalPanel.add(partPanel, BorderLayout.SOUTH);
+        intermediatePanel.add(modelPanel, BorderLayout.NORTH);
+        intermediatePanel.add(clavierPanel, BorderLayout.CENTER);
+        intermediatePanel.add(groupPanel, BorderLayout.SOUTH);
+        
+        finalPanel.add(intermediatePanel, BorderLayout.NORTH);
+        finalPanel.add(partPanel, BorderLayout.CENTER);
+        finalPanel.add(bvalider, BorderLayout.SOUTH);
         
         groupExpTrain.add(bTrain);
         groupExpTrain.add(bExp);
         groupClavier.add(bClavierPred);
         groupClavier.add(bClavierNoPred);
+        groupGroup.add(bG1);
+        groupGroup.add(bG2);
 
         this.setLayout(new BorderLayout());
         this.add(finalPanel, BorderLayout.CENTER);
-        this.add(bvalider, BorderLayout.SOUTH);
+        //this.add(bvalider, BorderLayout.SOUTH);
         pack();
 		setLocationRelativeTo(null);
 		setVisible(true);
@@ -86,6 +105,7 @@ public class Main extends JFrame {
             { 
                 Mode mode = Mode.TRAIN;
                 ResultsWordPrediction wp = ResultsWordPrediction.PRED;
+                Ordre ordre;
                 int nbPart = (int) partSpinner.getValue();
                 if (bTrain.isSelected()) { 
                     mode = Mode.TRAIN; 
@@ -101,14 +121,22 @@ public class Main extends JFrame {
                 } else {
                     return;
                 }
+                
+                if (bG1.isSelected()) {
+                	ordre = Ordre.PRED_NOPRED;
+                } else if (bG2.isSelected()) {
+                	ordre = Ordre.NOPRED_PRED;
+                } else {
+                	return;
+                }
 
-                start(mode, wp, nbPart);
+                start(mode, wp, nbPart, ordre);
             } 
         }); 
     }
 
-    private void start(Mode mode, ResultsWordPrediction wp, int nbPart) {
-        ExpeLogger.debutSimulation(wp, nbPart, mode);
+    private void start(Mode mode, ResultsWordPrediction wp, int nbPart, Ordre ordre) {
+        ExpeLogger.debutSimulation(wp, nbPart, mode, ordre);
         new Clavier2Frame(mode, wp, nbPart);
         this.dispose();
     }

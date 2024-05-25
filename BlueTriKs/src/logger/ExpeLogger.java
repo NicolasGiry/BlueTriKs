@@ -4,6 +4,7 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.Calendar;
 import main.Mode;
+import main.Ordre;
 import main.ResultsWordPrediction;
 
 public class ExpeLogger{
@@ -13,7 +14,7 @@ public class ExpeLogger{
 	
 	private ExpeLogger(){}
 	
-	public static void debutSimulation(ResultsWordPrediction wp, int participant, Mode mode){
+	public static void debutSimulation(ResultsWordPrediction wp, int participant, Mode mode, Ordre ordre){
 		long time = System.currentTimeMillis();
 		Calendar c=Calendar.getInstance();
 		c.setTimeInMillis(time);
@@ -64,6 +65,8 @@ public class ExpeLogger{
 			logger.txtFile.write("\t\t<Mode type=\""+mode.name()+"\"/>");
 			logger.txtFile.newLine();
 			logger.txtFile.write("\t\t<Participant id=\""+participant+"\"/>");
+			logger.txtFile.newLine();
+			logger.txtFile.write("\t\t<OrdreClavier ordre=\""+ordre.name()+"\"/>");
 			logger.txtFile.newLine();
 			logger.txtFile.write("\t</Settings>");
 			logger.txtFile.newLine();

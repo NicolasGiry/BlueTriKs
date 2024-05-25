@@ -91,7 +91,7 @@ public class Predictor {
         for (String letter : corpus) {
             if (letter.equals(separation)) {
                 current = racine;
-            } else if (!letter.equals(((char) 0)+"")) {
+            } else if (!letter.equals(((char) 0)+"") && !letter.equals(" ́") && !letter.equals(" ̀") && !letter.equals(" ̂")) {
                 current = current.addLettre(letter, current);
             }
         }

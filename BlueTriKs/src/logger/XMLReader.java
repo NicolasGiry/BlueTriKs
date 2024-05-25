@@ -28,7 +28,9 @@ public class XMLReader {
         key_mode_part += ";";
         key_mode_part += settingsElement.getElementsByTagName("Mode").item(0).getAttributes().getNamedItem("type").getTextContent();
         key_mode_part += ";";
-        key_mode_part += nbPart - Integer.valueOf(settingsElement.getElementsByTagName("Participant").item(0).getAttributes().getNamedItem("id").getTextContent())+1;
+        key_mode_part += settingsElement.getElementsByTagName("OrdreClavier").item(0).getAttributes().getNamedItem("ordre").getTextContent();
+        key_mode_part += ";";
+        key_mode_part += Integer.valueOf(settingsElement.getElementsByTagName("Participant").item(0).getAttributes().getNamedItem("id").getTextContent());
         key_mode_part += ";";
         return key_mode_part;
     }
@@ -266,7 +268,7 @@ public class XMLReader {
 			e.printStackTrace();
 		}
         try {
-			parser.txtFile.write("Keyboard;Mode;Participant;Phrase;NbChar;Duree;Correct;NbErrors;NbPredictionUsed;predCharRatio;CharParSec;Distance;KSPC;centerKeyDistanceMean");
+			parser.txtFile.write("Keyboard;Mode;Ordre;Participant;Phrase;NbChar;Duree;Correct;NbErrors;NbPredictionUsed;predCharRatio;CharParSec;Distance;KSPC;centerKeyDistanceMean");
         } catch (IOException e) {
 			e.printStackTrace();
 		}

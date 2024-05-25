@@ -43,6 +43,10 @@ public class Tree implements Comparable<Tree>{
     public Tree getparent() {
         return parent;
     }
+    
+    public void setParent(Tree parent) {
+    	this.parent = parent;
+    }
 
     @Override
     public boolean equals(Object obj) {
@@ -73,7 +77,10 @@ public class Tree implements Comparable<Tree>{
         listeTrie.addAll(enfants);
         List<String> lettres = new ArrayList<>();
         for (Tree t : listeTrie) {
-            lettres.add(t.val);
+        	String l = t.val;
+        	if (!l.equals("\u0302") && !l.equals("\u0301") && !l.equals("\u0300")) {
+        		lettres.add(t.val);
+        	}
         }
 
         if (display) {

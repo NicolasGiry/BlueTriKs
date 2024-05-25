@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExpeKeyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="expekeyboard.xsd">
+	<Settings t="1716648995608">
+		<Keyboard name="PRED"/>
+		<Mode type="TRAIN"/>
+		<Participant id="1"/>
+		<OrdreClavier ordre="PRED_NOPRED"/>
+	</Settings>
+	<Phrase string="MES PARENTS SONT VIEUX MAINTENANT" t="1716648997847">
+		<Prediction t="1716648997848">
+			<ResultatPrediction letter="D" position="0"/>
+			<ResultatPrediction letter="C" position="1"/>
+			<ResultatPrediction letter="P" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716648999109" x="179" y="330"/>
+		<MouvementSouris t="1716648999130" x="204" y="318"/>
+		<MouvementSouris t="1716648999144" x="215" y="314"/>
+		<MouvementSouris t="1716648999158" x="220" y="312"/>
+		<MouvementSouris t="1716648999177" x="233" y="308"/>
+		<MouvementSouris t="1716648999195" x="237" y="307"/>
+		<MouvementSouris t="1716648999210" x="241" y="307"/>
+		<MouvementSouris t="1716648999222" x="241" y="307"/>
+		<MouvementSouris t="1716648999235" x="242" y="307"/>
+		<MouvementSouris t="1716648999248" x="243" y="307"/>
+		<MouvementSouris t="1716648999259" x="245" y="307"/>
+		<MouvementSouris t="1716648999270" x="245" y="307"/>
+		<MouvementSouris t="1716648999280" x="245" y="307"/>
+		<MouvementSouris t="1716648999286" x="246" y="307"/>
+		<MouvementSouris t="1716648999296" x="246" y="307"/>
+		<MouvementSouris t="1716648999312" x="246" y="307"/>
+		<MouvementSouris t="1716648999318" x="247" y="307"/>
+		<MouvementSouris t="1716648999430" x="246" y="307"/>
+		<MouvementSouris t="1716648999444" x="245" y="307"/>
+		<MouvementSouris t="1716648999460" x="242" y="308"/>
+		<MouvementSouris t="1716648999475" x="238" y="309"/>
+		<MouvementSouris t="1716648999488" x="234" y="310"/>
+		<MouvementSouris t="1716648999501" x="231" y="311"/>
+		<MouvementSouris t="1716648999512" x="230" y="311"/>
+		<MouvementSouris t="1716648999521" x="229" y="311"/>
+		<MouvementSouris t="1716648999536" x="226" y="312"/>
+		<MouvementSouris t="1716648999549" x="224" y="312"/>
+		<MouvementSouris t="1716648999558" x="223" y="312"/>
+		<MouvementSouris t="1716648999570" x="221" y="312"/>
+		<MouvementSouris t="1716648999577" x="221" y="312"/>
+		<MouvementSouris t="1716648999586" x="220" y="312"/>
+		<MouvementSouris t="1716648999597" x="219" y="312"/>
+		<MouvementSouris t="1716648999605" x="218" y="312"/>
+		<MouvementSouris t="1716648999613" x="218" y="312"/>
+		<MouvementSouris t="1716648999623" x="217" y="312"/>
+		<MouvementSouris t="1716648999632" x="217" y="312"/>
+		<MouvementSouris t="1716648999640" x="216" y="311"/>
+		<MouvementSouris t="1716648999651" x="216" y="311"/>
+		<MouvementSouris t="1716648999659" x="216" y="311"/>
+		<SelectionCaractere name="M" x="212" y="305" xSouris="216" ySouris="311" isCorrect="true" isPredicted="false" t="1716648999762"/>
+		<Prediction t="1716648999765">
+			<ResultatPrediction letter="A" position="0"/>
+			<ResultatPrediction letter="O" position="1"/>
+			<ResultatPrediction letter="E" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716648999967" x="219" y="305"/>
+		<MouvementSouris t="1716648999978" x="222" y="299"/>
+		<MouvementSouris t="1716648999992" x="232" y="282"/>
+		<MouvementSouris t="1716649000012" x="241" y="269"/>
+		<MouvementSouris t="1716649000025" x="243" y="267"/>
+		<MouvementSouris t="1716649000039" x="247" y="261"/>
+		<MouvementSouris t="1716649000055" x="249" y="258"/>
+		<MouvementSouris t="1716649000064" x="251" y="254"/>
+		<MouvementSouris t="1716649000077" x="252" y="253"/>
+		<MouvementSouris t="1716649000078" x="254" y="252"/>
+		<MouvementSouris t="1716649000085" x="255" y="250"/>
+		<MouvementSouris t="1716649000093" x="255" y="249"/>
+		<MouvementSouris t="1716649000102" x="256" y="248"/>
+		<MouvementSouris t="1716649000110" x="257" y="247"/>
+		<MouvementSouris t="1716649000117" x="257" y="246"/>
+		<MouvementSouris t="1716649000127" x="258" y="245"/>
+		<MouvementSouris t="1716649000135" x="259" y="244"/>
+		<MouvementSouris t="1716649000143" x="259" y="244"/>
+		<MouvementSouris t="1716649000152" x="260" y="243"/>
+		<MouvementSouris t="1716649000152" x="260" y="243"/>
+		<MouvementSouris t="1716649000160" x="261" y="242"/>
+		<MouvementSouris t="1716649000167" x="261" y="242"/>
+		<MouvementSouris t="1716649000174" x="262" y="241"/>
+		<MouvementSouris t="1716649000183" x="262" y="241"/>
+		<MouvementSouris t="1716649000193" x="263" y="240"/>
+		<MouvementSouris t="1716649000201" x="264" y="240"/>
+		<MouvementSouris t="1716649000201" x="264" y="239"/>
+		<MouvementSouris t="1716649000209" x="265" y="238"/>
+		<MouvementSouris t="1716649000216" x="265" y="238"/>
+		<MouvementSouris t="1716649000224" x="266" y="237"/>
+		<MouvementSouris t="1716649000231" x="267" y="236"/>
+		<MouvementSouris t="1716649000238" x="267" y="236"/>
+		<MouvementSouris t="1716649000250" x="268" y="235"/>
+		<MouvementSouris t="1716649000260" x="268" y="234"/>
+		<MouvementSouris t="1716649000275" x="269" y="234"/>
+		<MouvementSouris t="1716649000280" x="269" y="233"/>
+		<MouvementSouris t="1716649000292" x="270" y="232"/>
+		<SelectionCaractere name="E" x="255" y="235" xSouris="270" ySouris="232" isCorrect="true" isPredicted="false" t="1716649000339"/>
+		<Prediction t="1716649000340">
+			<ResultatPrediction letter="́" position="0"/>
+			<ResultatPrediction letter="M" position="1"/>
+			<ResultatPrediction letter="N" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649000642" x="268" y="232"/>
+		<MouvementSouris t="1716649000650" x="266" y="232"/>
+		<MouvementSouris t="1716649000664" x="260" y="230"/>
+		<MouvementSouris t="1716649000672" x="258" y="229"/>
+		<MouvementSouris t="1716649000679" x="255" y="229"/>
+		<MouvementSouris t="1716649000686" x="251" y="228"/>
+		<MouvementSouris t="1716649000696" x="247" y="227"/>
+		<MouvementSouris t="1716649000703" x="239" y="225"/>
+		<MouvementSouris t="1716649000710" x="235" y="223"/>
+		<MouvementSouris t="1716649000719" x="230" y="222"/>
+		<MouvementSouris t="1716649000727" x="228" y="221"/>
+		<MouvementSouris t="1716649000740" x="222" y="218"/>
+		<MouvementSouris t="1716649000746" x="220" y="217"/>
+		<MouvementSouris t="1716649000758" x="218" y="216"/>
+		<MouvementSouris t="1716649000766" x="214" y="213"/>
+		<MouvementSouris t="1716649000774" x="212" y="212"/>
+		<MouvementSouris t="1716649000785" x="211" y="211"/>
+		<MouvementSouris t="1716649000795" x="209" y="210"/>
+		<MouvementSouris t="1716649000808" x="206" y="208"/>
+		<MouvementSouris t="1716649000821" x="204" y="207"/>
+		<MouvementSouris t="1716649000832" x="203" y="207"/>
+		<MouvementSouris t="1716649000842" x="201" y="206"/>
+		<MouvementSouris t="1716649000852" x="199" y="206"/>
+		<MouvementSouris t="1716649000864" x="195" y="206"/>
+		<MouvementSouris t="1716649000872" x="192" y="206"/>
+		<MouvementSouris t="1716649000885" x="184" y="205"/>
+		<MouvementSouris t="1716649000894" x="180" y="206"/>
+		<MouvementSouris t="1716649000906" x="171" y="208"/>
+		<MouvementSouris t="1716649000918" x="165" y="209"/>
+		<MouvementSouris t="1716649000927" x="163" y="210"/>
+		<MouvementSouris t="1716649000938" x="161" y="210"/>
+		<MouvementSouris t="1716649000949" x="156" y="211"/>
+		<MouvementSouris t="1716649000960" x="152" y="211"/>
+		<MouvementSouris t="1716649000970" x="150" y="211"/>
+		<MouvementSouris t="1716649000982" x="147" y="211"/>
+		<MouvementSouris t="1716649000993" x="144" y="211"/>
+		<MouvementSouris t="1716649001001" x="143" y="211"/>
+		<MouvementSouris t="1716649001013" x="141" y="211"/>
+		<MouvementSouris t="1716649001021" x="140" y="211"/>
+		<MouvementSouris t="1716649001029" x="140" y="211"/>
+		<MouvementSouris t="1716649001040" x="138" y="211"/>
+		<MouvementSouris t="1716649001049" x="137" y="211"/>
+		<MouvementSouris t="1716649001061" x="136" y="211"/>
+		<MouvementSouris t="1716649001069" x="136" y="211"/>
+		<MouvementSouris t="1716649001077" x="135" y="210"/>
+		<MouvementSouris t="1716649001088" x="134" y="210"/>
+		<MouvementSouris t="1716649001108" x="134" y="210"/>
+		<MouvementSouris t="1716649001116" x="134" y="210"/>
+		<SelectionCaractere name="S" x="127" y="211" xSouris="134" ySouris="210" isCorrect="true" isPredicted="false" t="1716649001186"/>
+		<Prediction t="1716649001187">
+			<ResultatPrediction letter="U" position="0"/>
+			<ResultatPrediction letter="S" position="1"/>
+			<ResultatPrediction letter="Q" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649001405" x="144" y="210"/>
+		<MouvementSouris t="1716649001413" x="155" y="211"/>
+		<MouvementSouris t="1716649001425" x="164" y="211"/>
+		<MouvementSouris t="1716649001425" x="171" y="212"/>
+		<MouvementSouris t="1716649001432" x="178" y="212"/>
+		<MouvementSouris t="1716649001445" x="185" y="212"/>
+		<MouvementSouris t="1716649001453" x="188" y="213"/>
+		<MouvementSouris t="1716649001460" x="190" y="213"/>
+		<MouvementSouris t="1716649001468" x="192" y="213"/>
+		<MouvementSouris t="1716649001476" x="194" y="213"/>
+		<MouvementSouris t="1716649001485" x="196" y="213"/>
+		<MouvementSouris t="1716649001490" x="197" y="213"/>
+		<MouvementSouris t="1716649001500" x="198" y="213"/>
+		<MouvementSouris t="1716649001509" x="201" y="214"/>
+		<MouvementSouris t="1716649001519" x="202" y="214"/>
+		<MouvementSouris t="1716649001529" x="204" y="214"/>
+		<MouvementSouris t="1716649001537" x="204" y="214"/>
+		<MouvementSouris t="1716649001544" x="205" y="214"/>
+		<MouvementSouris t="1716649001551" x="205" y="214"/>
+		<MouvementSouris t="1716649001557" x="206" y="215"/>
+		<MouvementSouris t="1716649001565" x="206" y="215"/>
+		<MouvementSouris t="1716649001572" x="207" y="215"/>
+		<MouvementSouris t="1716649001580" x="208" y="215"/>
+		<MouvementSouris t="1716649001590" x="208" y="215"/>
+		<MouvementSouris t="1716649001604" x="209" y="215"/>
+		<MouvementSouris t="1716649001612" x="209" y="215"/>
+		<MouvementSouris t="1716649001620" x="210" y="215"/>
+		<MouvementSouris t="1716649001629" x="210" y="215"/>
+		<MouvementSouris t="1716649001640" x="210" y="215"/>
+		<MouvementSouris t="1716649001648" x="210" y="215"/>
+		<MouvementSouris t="1716649001657" x="211" y="215"/>
+		<MouvementSouris t="1716649001667" x="211" y="215"/>
+		<SelectionCaractere name=" " x="212" y="211" xSouris="211" ySouris="215" isCorrect="true" isPredicted="false" t="1716649001763"/>
+		<Prediction t="1716649001765">
+			<ResultatPrediction letter="D" position="0"/>
+			<ResultatPrediction letter="C" position="1"/>
+			<ResultatPrediction letter="P" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649002127" x="209" y="218"/>
+		<MouvementSouris t="1716649002134" x="205" y="225"/>
+		<MouvementSouris t="1716649002143" x="201" y="233"/>
+		<MouvementSouris t="1716649002155" x="194" y="248"/>
+		<MouvementSouris t="1716649002163" x="192" y="253"/>
+		<MouvementSouris t="1716649002169" x="191" y="258"/>
+		<MouvementSouris t="1716649002179" x="190" y="262"/>
+		<MouvementSouris t="1716649002188" x="189" y="265"/>
+		<MouvementSouris t="1716649002197" x="187" y="270"/>
+		<MouvementSouris t="1716649002204" x="186" y="272"/>
+		<MouvementSouris t="1716649002212" x="185" y="273"/>
+		<MouvementSouris t="1716649002221" x="185" y="275"/>
+		<MouvementSouris t="1716649002228" x="184" y="277"/>
+		<MouvementSouris t="1716649002238" x="183" y="279"/>
+		<MouvementSouris t="1716649002246" x="183" y="279"/>
+		<MouvementSouris t="1716649002254" x="183" y="280"/>
+		<MouvementSouris t="1716649002262" x="183" y="281"/>
+		<MouvementSouris t="1716649002272" x="182" y="282"/>
+		<MouvementSouris t="1716649002279" x="182" y="283"/>
+		<MouvementSouris t="1716649002288" x="182" y="283"/>
+		<MouvementSouris t="1716649002297" x="181" y="284"/>
+		<MouvementSouris t="1716649002305" x="181" y="284"/>
+		<MouvementSouris t="1716649002313" x="181" y="285"/>
+		<MouvementSouris t="1716649002323" x="181" y="286"/>
+		<MouvementSouris t="1716649002333" x="181" y="286"/>
+		<MouvementSouris t="1716649002344" x="181" y="286"/>
+		<MouvementSouris t="1716649002355" x="181" y="287"/>
+		<SelectionCaractere name="P" x="170" y="282" xSouris="181" ySouris="287" isCorrect="true" isPredicted="false" t="1716649002451"/>
+		<Prediction t="1716649002452">
+			<ResultatPrediction letter="A" position="0"/>
+			<ResultatPrediction letter="R" position="1"/>
+			<ResultatPrediction letter="O" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649002664" x="183" y="285"/>
+		<MouvementSouris t="1716649002672" x="185" y="284"/>
+		<MouvementSouris t="1716649002679" x="187" y="282"/>
+		<MouvementSouris t="1716649002687" x="188" y="281"/>
+		<MouvementSouris t="1716649002697" x="190" y="280"/>
+		<MouvementSouris t="1716649002706" x="193" y="278"/>
+		<MouvementSouris t="1716649002713" x="195" y="277"/>
+		<MouvementSouris t="1716649002721" x="196" y="276"/>
+		<MouvementSouris t="1716649002730" x="197" y="275"/>
+		<MouvementSouris t="1716649002737" x="199" y="274"/>
+		<MouvementSouris t="1716649002744" x="200" y="273"/>
+		<MouvementSouris t="1716649002750" x="202" y="272"/>
+		<MouvementSouris t="1716649002762" x="204" y="271"/>
+		<MouvementSouris t="1716649002770" x="205" y="271"/>
+		<MouvementSouris t="1716649002780" x="206" y="270"/>
+		<MouvementSouris t="1716649002790" x="207" y="269"/>
+		<MouvementSouris t="1716649002799" x="208" y="268"/>
+		<MouvementSouris t="1716649002809" x="210" y="268"/>
+		<MouvementSouris t="1716649002818" x="210" y="267"/>
+		<MouvementSouris t="1716649002827" x="211" y="267"/>
+		<MouvementSouris t="1716649002837" x="212" y="267"/>
+		<MouvementSouris t="1716649002845" x="212" y="266"/>
+		<MouvementSouris t="1716649002855" x="213" y="266"/>
+		<MouvementSouris t="1716649002864" x="213" y="266"/>
+		<SelectionCaractere name="A" x="212" y="258" xSouris="213" ySouris="266" isCorrect="true" isPredicted="false" t="1716649002933"/>
+		<Prediction t="1716649002934">
+			<ResultatPrediction letter="S" position="0"/>
+			<ResultatPrediction letter="R" position="1"/>
+			<ResultatPrediction letter="L" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649003318" x="214" y="258"/>
+		<MouvementSouris t="1716649003326" x="217" y="245"/>
+		<MouvementSouris t="1716649003333" x="219" y="234"/>
+		<MouvementSouris t="1716649003343" x="222" y="221"/>
+		<MouvementSouris t="1716649003351" x="224" y="210"/>
+		<MouvementSouris t="1716649003361" x="227" y="196"/>
+		<MouvementSouris t="1716649003372" x="228" y="192"/>
+		<MouvementSouris t="1716649003373" x="230" y="187"/>
+		<MouvementSouris t="1716649003380" x="231" y="183"/>
+		<MouvementSouris t="1716649003386" x="232" y="181"/>
+		<MouvementSouris t="1716649003394" x="233" y="178"/>
+		<MouvementSouris t="1716649003403" x="233" y="175"/>
+		<MouvementSouris t="1716649003409" x="233" y="174"/>
+		<MouvementSouris t="1716649003419" x="233" y="172"/>
+		<MouvementSouris t="1716649003429" x="233" y="170"/>
+		<MouvementSouris t="1716649003436" x="233" y="169"/>
+		<MouvementSouris t="1716649003444" x="233" y="168"/>
+		<MouvementSouris t="1716649003453" x="233" y="168"/>
+		<MouvementSouris t="1716649003463" x="233" y="166"/>
+		<MouvementSouris t="1716649003473" x="233" y="166"/>
+		<MouvementSouris t="1716649003484" x="233" y="165"/>
+		<MouvementSouris t="1716649003491" x="233" y="164"/>
+		<MouvementSouris t="1716649003506" x="233" y="163"/>
+		<MouvementSouris t="1716649003516" x="233" y="163"/>
+		<MouvementSouris t="1716649003525" x="233" y="162"/>
+		<MouvementSouris t="1716649003535" x="233" y="161"/>
+		<MouvementSouris t="1716649003546" x="233" y="160"/>
+		<MouvementSouris t="1716649003555" x="233" y="159"/>
+		<MouvementSouris t="1716649003567" x="232" y="159"/>
+		<MouvementSouris t="1716649003576" x="232" y="158"/>
+		<MouvementSouris t="1716649003585" x="231" y="158"/>
+		<MouvementSouris t="1716649003595" x="231" y="158"/>
+		<MouvementSouris t="1716649003641" x="231" y="158"/>
+		<MouvementSouris t="1716649003661" x="231" y="158"/>
+		<MouvementSouris t="1716649003668" x="230" y="157"/>
+		<MouvementSouris t="1716649003676" x="230" y="157"/>
+		<MouvementSouris t="1716649003685" x="229" y="157"/>
+		<MouvementSouris t="1716649003693" x="228" y="157"/>
+		<MouvementSouris t="1716649003702" x="228" y="157"/>
+		<MouvementSouris t="1716649003712" x="227" y="157"/>
+		<MouvementSouris t="1716649003719" x="226" y="158"/>
+		<MouvementSouris t="1716649003728" x="226" y="158"/>
+		<SelectionCaractere name="R" x="212" y="164" xSouris="226" ySouris="158" isCorrect="true" isPredicted="true" t="1716649003786"/>
+		<Prediction t="1716649003787">
+			<ResultatPrediction letter="T" position="0"/>
+			<ResultatPrediction letter="A" position="1"/>
+			<ResultatPrediction letter="L" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649004164" x="226" y="159"/>
+		<MouvementSouris t="1716649004172" x="226" y="161"/>
+		<MouvementSouris t="1716649004178" x="226" y="163"/>
+		<MouvementSouris t="1716649004188" x="227" y="166"/>
+		<MouvementSouris t="1716649004196" x="227" y="169"/>
+		<MouvementSouris t="1716649004206" x="229" y="176"/>
+		<MouvementSouris t="1716649004215" x="230" y="181"/>
+		<MouvementSouris t="1716649004225" x="232" y="190"/>
+		<MouvementSouris t="1716649004233" x="233" y="193"/>
+		<MouvementSouris t="1716649004240" x="234" y="198"/>
+		<MouvementSouris t="1716649004250" x="236" y="202"/>
+		<MouvementSouris t="1716649004258" x="236" y="205"/>
+		<MouvementSouris t="1716649004268" x="238" y="211"/>
+		<MouvementSouris t="1716649004275" x="239" y="213"/>
+		<MouvementSouris t="1716649004285" x="240" y="215"/>
+		<MouvementSouris t="1716649004294" x="240" y="216"/>
+		<MouvementSouris t="1716649004301" x="242" y="220"/>
+		<MouvementSouris t="1716649004310" x="243" y="221"/>
+		<MouvementSouris t="1716649004319" x="243" y="223"/>
+		<MouvementSouris t="1716649004330" x="244" y="225"/>
+		<MouvementSouris t="1716649004339" x="245" y="226"/>
+		<MouvementSouris t="1716649004348" x="245" y="227"/>
+		<MouvementSouris t="1716649004359" x="246" y="229"/>
+		<MouvementSouris t="1716649004368" x="247" y="229"/>
+		<MouvementSouris t="1716649004380" x="247" y="231"/>
+		<MouvementSouris t="1716649004389" x="248" y="231"/>
+		<MouvementSouris t="1716649004399" x="248" y="233"/>
+		<MouvementSouris t="1716649004407" x="248" y="233"/>
+		<MouvementSouris t="1716649004418" x="249" y="234"/>
+		<MouvementSouris t="1716649004427" x="249" y="234"/>
+		<MouvementSouris t="1716649004436" x="249" y="235"/>
+		<MouvementSouris t="1716649004446" x="250" y="235"/>
+		<MouvementSouris t="1716649004456" x="250" y="236"/>
+		<MouvementSouris t="1716649004466" x="250" y="236"/>
+		<MouvementSouris t="1716649004480" x="251" y="237"/>
+		<MouvementSouris t="1716649004488" x="251" y="237"/>
+		<MouvementSouris t="1716649004498" x="251" y="237"/>
+		<MouvementSouris t="1716649004509" x="252" y="238"/>
+		<MouvementSouris t="1716649004521" x="252" y="238"/>
+		<SelectionCaractere name="E" x="255" y="235" xSouris="252" ySouris="238" isCorrect="true" isPredicted="false" t="1716649004578"/>
+		<Prediction t="1716649004579">
+			<ResultatPrediction letter="I" position="0"/>
+			<ResultatPrediction letter="N" position="1"/>
+			<ResultatPrediction letter="S" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649004914" x="251" y="237"/>
+		<MouvementSouris t="1716649004922" x="248" y="236"/>
+		<MouvementSouris t="1716649004930" x="243" y="234"/>
+		<MouvementSouris t="1716649004941" x="234" y="229"/>
+		<MouvementSouris t="1716649004950" x="231" y="227"/>
+		<MouvementSouris t="1716649004957" x="228" y="225"/>
+		<MouvementSouris t="1716649004966" x="226" y="224"/>
+		<MouvementSouris t="1716649004976" x="221" y="221"/>
+		<MouvementSouris t="1716649004984" x="220" y="220"/>
+		<MouvementSouris t="1716649004993" x="217" y="218"/>
+		<MouvementSouris t="1716649005001" x="216" y="217"/>
+		<MouvementSouris t="1716649005011" x="213" y="214"/>
+		<MouvementSouris t="1716649005020" x="212" y="213"/>
+		<MouvementSouris t="1716649005027" x="210" y="211"/>
+		<MouvementSouris t="1716649005037" x="209" y="209"/>
+		<MouvementSouris t="1716649005038" x="208" y="207"/>
+		<MouvementSouris t="1716649005046" x="206" y="205"/>
+		<MouvementSouris t="1716649005052" x="205" y="203"/>
+		<MouvementSouris t="1716649005062" x="205" y="201"/>
+		<MouvementSouris t="1716649005069" x="204" y="199"/>
+		<MouvementSouris t="1716649005080" x="203" y="195"/>
+		<MouvementSouris t="1716649005087" x="202" y="194"/>
+		<MouvementSouris t="1716649005096" x="202" y="192"/>
+		<MouvementSouris t="1716649005104" x="202" y="191"/>
+		<MouvementSouris t="1716649005111" x="201" y="190"/>
+		<MouvementSouris t="1716649005122" x="201" y="188"/>
+		<MouvementSouris t="1716649005134" x="201" y="186"/>
+		<MouvementSouris t="1716649005142" x="201" y="185"/>
+		<MouvementSouris t="1716649005150" x="201" y="185"/>
+		<MouvementSouris t="1716649005162" x="201" y="183"/>
+		<MouvementSouris t="1716649005172" x="201" y="182"/>
+		<MouvementSouris t="1716649005183" x="201" y="181"/>
+		<MouvementSouris t="1716649005193" x="201" y="180"/>
+		<MouvementSouris t="1716649005202" x="201" y="179"/>
+		<MouvementSouris t="1716649005210" x="201" y="178"/>
+		<MouvementSouris t="1716649005223" x="201" y="178"/>
+		<MouvementSouris t="1716649005231" x="201" y="177"/>
+		<MouvementSouris t="1716649005334" x="201" y="176"/>
+		<SelectionCaractere name="N" x="212" y="164" xSouris="201" ySouris="176" isCorrect="true" isPredicted="true" t="1716649005343"/>
+		<Prediction t="1716649005344">
+			<ResultatPrediction letter="T" position="0"/>
+			<ResultatPrediction letter="C" position="1"/>
+		</Prediction>
+		<MouvementSouris t="1716649005678" x="200" y="177"/>
+		<MouvementSouris t="1716649005686" x="197" y="179"/>
+		<MouvementSouris t="1716649005693" x="194" y="182"/>
+		<MouvementSouris t="1716649005702" x="191" y="184"/>
+		<MouvementSouris t="1716649005711" x="188" y="186"/>
+		<MouvementSouris t="1716649005719" x="185" y="188"/>
+		<MouvementSouris t="1716649005728" x="180" y="191"/>
+		<MouvementSouris t="1716649005737" x="178" y="192"/>
+		<MouvementSouris t="1716649005746" x="177" y="193"/>
+		<MouvementSouris t="1716649005746" x="175" y="193"/>
+		<MouvementSouris t="1716649005753" x="175" y="194"/>
+		<MouvementSouris t="1716649005762" x="174" y="194"/>
+		<MouvementSouris t="1716649005771" x="174" y="194"/>
+		<MouvementSouris t="1716649005782" x="172" y="194"/>
+		<MouvementSouris t="1716649005782" x="171" y="195"/>
+		<MouvementSouris t="1716649005796" x="170" y="195"/>
+		<SelectionCaractere name="T" x="170" y="188" xSouris="170" ySouris="195" isCorrect="true" isPredicted="true" t="1716649005857"/>
+		<Prediction t="1716649005858">
+			<ResultatPrediction letter="E" position="0"/>
+			<ResultatPrediction letter="H" position="1"/>
+			<ResultatPrediction letter="S" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649006352" x="168" y="197"/>
+		<MouvementSouris t="1716649006358" x="165" y="199"/>
+		<MouvementSouris t="1716649006372" x="159" y="202"/>
+		<MouvementSouris t="1716649006379" x="156" y="203"/>
+		<MouvementSouris t="1716649006386" x="154" y="205"/>
+		<MouvementSouris t="1716649006400" x="152" y="206"/>
+		<MouvementSouris t="1716649006406" x="151" y="206"/>
+		<MouvementSouris t="1716649006414" x="150" y="207"/>
+		<MouvementSouris t="1716649006425" x="149" y="207"/>
+		<MouvementSouris t="1716649006434" x="148" y="208"/>
+		<MouvementSouris t="1716649006441" x="147" y="208"/>
+		<MouvementSouris t="1716649006448" x="147" y="209"/>
+		<MouvementSouris t="1716649006457" x="146" y="209"/>
+		<MouvementSouris t="1716649006469" x="145" y="209"/>
+		<MouvementSouris t="1716649006476" x="145" y="209"/>
+		<MouvementSouris t="1716649006496" x="144" y="209"/>
+		<MouvementSouris t="1716649006510" x="144" y="209"/>
+		<MouvementSouris t="1716649006516" x="144" y="209"/>
+		<SelectionCaractere name="S" x="127" y="211" xSouris="144" ySouris="209" isCorrect="true" isPredicted="false" t="1716649006607"/>
+		<Prediction t="1716649006608">
+			<ResultatPrediction letter="," position="0"/>
+			<ResultatPrediction letter="." position="1"/>
+		</Prediction>
+		<MouvementSouris t="1716649007040" x="147" y="209"/>
+		<MouvementSouris t="1716649007047" x="152" y="209"/>
+		<MouvementSouris t="1716649007054" x="157" y="208"/>
+		<MouvementSouris t="1716649007067" x="170" y="208"/>
+		<MouvementSouris t="1716649007074" x="175" y="208"/>
+		<MouvementSouris t="1716649007088" x="183" y="208"/>
+		<MouvementSouris t="1716649007095" x="186" y="208"/>
+		<MouvementSouris t="1716649007102" x="189" y="208"/>
+		<MouvementSouris t="1716649007112" x="192" y="208"/>
+		<MouvementSouris t="1716649007119" x="194" y="208"/>
+		<MouvementSouris t="1716649007126" x="197" y="208"/>
+		<MouvementSouris t="1716649007136" x="199" y="208"/>
+		<MouvementSouris t="1716649007144" x="201" y="208"/>
+		<MouvementSouris t="1716649007153" x="204" y="209"/>
+		<MouvementSouris t="1716649007160" x="205" y="209"/>
+		<MouvementSouris t="1716649007170" x="206" y="209"/>
+		<MouvementSouris t="1716649007170" x="207" y="209"/>
+		<MouvementSouris t="1716649007177" x="209" y="209"/>
+		<MouvementSouris t="1716649007185" x="210" y="209"/>
+		<MouvementSouris t="1716649007193" x="211" y="209"/>
+		<MouvementSouris t="1716649007203" x="212" y="209"/>
+		<MouvementSouris t="1716649007212" x="213" y="209"/>
+		<MouvementSouris t="1716649007219" x="214" y="209"/>
+		<MouvementSouris t="1716649007229" x="215" y="209"/>
+		<MouvementSouris t="1716649007235" x="215" y="209"/>
+		<MouvementSouris t="1716649007247" x="216" y="209"/>
+		<MouvementSouris t="1716649007254" x="217" y="209"/>
+		<MouvementSouris t="1716649007264" x="217" y="209"/>
+		<MouvementSouris t="1716649007274" x="218" y="209"/>
+		<MouvementSouris t="1716649007276" x="219" y="209"/>
+		<MouvementSouris t="1716649007283" x="219" y="209"/>
+		<MouvementSouris t="1716649007294" x="219" y="209"/>
+		<MouvementSouris t="1716649007304" x="220" y="209"/>
+		<MouvementSouris t="1716649007313" x="220" y="209"/>
+		<MouvementSouris t="1716649007324" x="220" y="209"/>
+		<MouvementSouris t="1716649007336" x="221" y="209"/>
+		<MouvementSouris t="1716649007343" x="221" y="209"/>
+		<SelectionCaractere name=" " x="212" y="211" xSouris="221" ySouris="209" isCorrect="true" isPredicted="false" t="1716649007419"/>
+		<Prediction t="1716649007420">
+			<ResultatPrediction letter="D" position="0"/>
+			<ResultatPrediction letter="C" position="1"/>
+			<ResultatPrediction letter="P" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649007666" x="215" y="209"/>
+		<MouvementSouris t="1716649007680" x="199" y="209"/>
+		<MouvementSouris t="1716649007687" x="192" y="209"/>
+		<MouvementSouris t="1716649007693" x="183" y="209"/>
+		<MouvementSouris t="1716649007707" x="173" y="209"/>
+		<MouvementSouris t="1716649007714" x="169" y="209"/>
+		<MouvementSouris t="1716649007722" x="166" y="209"/>
+		<MouvementSouris t="1716649007731" x="163" y="209"/>
+		<MouvementSouris t="1716649007739" x="160" y="209"/>
+		<MouvementSouris t="1716649007751" x="155" y="210"/>
+		<MouvementSouris t="1716649007760" x="154" y="210"/>
+		<MouvementSouris t="1716649007765" x="152" y="210"/>
+		<MouvementSouris t="1716649007773" x="150" y="210"/>
+		<MouvementSouris t="1716649007783" x="147" y="210"/>
+		<MouvementSouris t="1716649007790" x="146" y="210"/>
+		<MouvementSouris t="1716649007797" x="146" y="210"/>
+		<MouvementSouris t="1716649007803" x="145" y="210"/>
+		<MouvementSouris t="1716649007810" x="144" y="210"/>
+		<MouvementSouris t="1716649007818" x="143" y="210"/>
+		<MouvementSouris t="1716649007824" x="142" y="210"/>
+		<MouvementSouris t="1716649007831" x="142" y="210"/>
+		<MouvementSouris t="1716649007838" x="141" y="210"/>
+		<MouvementSouris t="1716649007848" x="140" y="210"/>
+		<MouvementSouris t="1716649007860" x="139" y="210"/>
+		<MouvementSouris t="1716649007871" x="139" y="210"/>
+		<MouvementSouris t="1716649007882" x="137" y="210"/>
+		<MouvementSouris t="1716649007895" x="136" y="210"/>
+		<MouvementSouris t="1716649007901" x="136" y="210"/>
+		<MouvementSouris t="1716649007910" x="136" y="210"/>
+		<MouvementSouris t="1716649007919" x="135" y="210"/>
+		<MouvementSouris t="1716649007929" x="134" y="210"/>
+		<MouvementSouris t="1716649007943" x="134" y="210"/>
+		<MouvementSouris t="1716649007957" x="133" y="210"/>
+		<MouvementSouris t="1716649007963" x="133" y="210"/>
+		<MouvementSouris t="1716649007970" x="133" y="210"/>
+		<SelectionCaractere name="S" x="127" y="211" xSouris="133" ySouris="210" isCorrect="true" isPredicted="false" t="1716649008038"/>
+		<Prediction t="1716649008040">
+			<ResultatPrediction letter="O" position="0"/>
+			<ResultatPrediction letter="E" position="1"/>
+			<ResultatPrediction letter="U" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649008409" x="134" y="210"/>
+		<MouvementSouris t="1716649008423" x="139" y="210"/>
+		<MouvementSouris t="1716649008437" x="144" y="209"/>
+		<MouvementSouris t="1716649008450" x="147" y="209"/>
+		<MouvementSouris t="1716649008450" x="149" y="208"/>
+		<MouvementSouris t="1716649008464" x="151" y="208"/>
+		<MouvementSouris t="1716649008465" x="153" y="208"/>
+		<MouvementSouris t="1716649008478" x="156" y="207"/>
+		<MouvementSouris t="1716649008488" x="158" y="207"/>
+		<MouvementSouris t="1716649008501" x="161" y="206"/>
+		<MouvementSouris t="1716649008509" x="162" y="206"/>
+		<MouvementSouris t="1716649008519" x="164" y="206"/>
+		<MouvementSouris t="1716649008519" x="165" y="206"/>
+		<MouvementSouris t="1716649008526" x="166" y="206"/>
+		<MouvementSouris t="1716649008534" x="167" y="205"/>
+		<MouvementSouris t="1716649008542" x="168" y="205"/>
+		<MouvementSouris t="1716649008549" x="169" y="205"/>
+		<MouvementSouris t="1716649008558" x="170" y="205"/>
+		<MouvementSouris t="1716649008566" x="171" y="204"/>
+		<MouvementSouris t="1716649008575" x="173" y="204"/>
+		<MouvementSouris t="1716649008583" x="174" y="204"/>
+		<MouvementSouris t="1716649008592" x="174" y="203"/>
+		<MouvementSouris t="1716649008600" x="175" y="203"/>
+		<MouvementSouris t="1716649008609" x="176" y="203"/>
+		<MouvementSouris t="1716649008617" x="177" y="202"/>
+		<SelectionCaractere name="O" x="170" y="188" xSouris="177" ySouris="202" isCorrect="true" isPredicted="true" t="1716649008672"/>
+		<Prediction t="1716649008673">
+			<ResultatPrediction letter="N" position="0"/>
+			<ResultatPrediction letter="I" position="1"/>
+			<ResultatPrediction letter="U" position="2"/>
+		</Prediction>
+		<SelectionCaractere name="N" x="170" y="188" xSouris="177" ySouris="202" isCorrect="true" isPredicted="true" t="1716649009064"/>
+		<Prediction t="1716649009065">
+			<ResultatPrediction letter="N" position="0"/>
+			<ResultatPrediction letter="T" position="1"/>
+			<ResultatPrediction letter="G" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649009408" x="178" y="201"/>
+		<MouvementSouris t="1716649009416" x="179" y="201"/>
+		<MouvementSouris t="1716649009427" x="180" y="200"/>
+		<MouvementSouris t="1716649009440" x="182" y="198"/>
+		<MouvementSouris t="1716649009452" x="184" y="197"/>
+		<MouvementSouris t="1716649009466" x="186" y="195"/>
+		<MouvementSouris t="1716649009479" x="187" y="194"/>
+		<MouvementSouris t="1716649009494" x="189" y="193"/>
+		<MouvementSouris t="1716649009506" x="191" y="191"/>
+		<MouvementSouris t="1716649009513" x="191" y="190"/>
+		<MouvementSouris t="1716649009522" x="192" y="189"/>
+		<MouvementSouris t="1716649009530" x="193" y="189"/>
+		<MouvementSouris t="1716649009539" x="195" y="187"/>
+		<MouvementSouris t="1716649009547" x="196" y="186"/>
+		<MouvementSouris t="1716649009556" x="197" y="185"/>
+		<MouvementSouris t="1716649009566" x="199" y="183"/>
+		<MouvementSouris t="1716649009573" x="199" y="183"/>
+		<MouvementSouris t="1716649009581" x="200" y="182"/>
+		<MouvementSouris t="1716649009590" x="201" y="181"/>
+		<MouvementSouris t="1716649009597" x="202" y="180"/>
+		<MouvementSouris t="1716649009608" x="203" y="179"/>
+		<MouvementSouris t="1716649009616" x="204" y="178"/>
+		<MouvementSouris t="1716649009623" x="205" y="177"/>
+		<MouvementSouris t="1716649009632" x="206" y="177"/>
+		<MouvementSouris t="1716649009640" x="207" y="176"/>
+		<MouvementSouris t="1716649009649" x="208" y="175"/>
+		<MouvementSouris t="1716649009657" x="209" y="174"/>
+		<MouvementSouris t="1716649009664" x="210" y="174"/>
+		<MouvementSouris t="1716649009673" x="210" y="173"/>
+		<MouvementSouris t="1716649009683" x="211" y="172"/>
+		<MouvementSouris t="1716649009691" x="212" y="172"/>
+		<MouvementSouris t="1716649009703" x="212" y="171"/>
+		<MouvementSouris t="1716649009712" x="213" y="171"/>
+		<MouvementSouris t="1716649009718" x="213" y="170"/>
+		<MouvementSouris t="1716649009731" x="214" y="170"/>
+		<MouvementSouris t="1716649009739" x="214" y="169"/>
+		<MouvementSouris t="1716649009755" x="215" y="169"/>
+		<MouvementSouris t="1716649009765" x="215" y="168"/>
+		<MouvementSouris t="1716649009775" x="215" y="168"/>
+		<SelectionCaractere name="T" x="212" y="164" xSouris="215" ySouris="168" isCorrect="true" isPredicted="true" t="1716649009821"/>
+		<Prediction t="1716649009823">
+			<ResultatPrediction letter="," position="0"/>
+			<ResultatPrediction letter="I" position="1"/>
+			<ResultatPrediction letter="E" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649010117" x="215" y="170"/>
+		<MouvementSouris t="1716649010126" x="215" y="172"/>
+		<MouvementSouris t="1716649010139" x="215" y="177"/>
+		<MouvementSouris t="1716649010154" x="215" y="182"/>
+		<MouvementSouris t="1716649010168" x="215" y="185"/>
+		<MouvementSouris t="1716649010180" x="215" y="188"/>
+		<MouvementSouris t="1716649010195" x="215" y="190"/>
+		<MouvementSouris t="1716649010206" x="215" y="192"/>
+		<MouvementSouris t="1716649010212" x="215" y="193"/>
+		<MouvementSouris t="1716649010219" x="215" y="194"/>
+		<MouvementSouris t="1716649010227" x="215" y="195"/>
+		<MouvementSouris t="1716649010237" x="215" y="195"/>
+		<MouvementSouris t="1716649010244" x="215" y="196"/>
+		<MouvementSouris t="1716649010252" x="215" y="197"/>
+		<MouvementSouris t="1716649010260" x="215" y="198"/>
+		<MouvementSouris t="1716649010272" x="215" y="199"/>
+		<MouvementSouris t="1716649010276" x="215" y="199"/>
+		<MouvementSouris t="1716649010283" x="215" y="200"/>
+		<MouvementSouris t="1716649010290" x="215" y="200"/>
+		<MouvementSouris t="1716649010296" x="215" y="201"/>
+		<MouvementSouris t="1716649010303" x="215" y="201"/>
+		<MouvementSouris t="1716649010310" x="215" y="201"/>
+		<MouvementSouris t="1716649010321" x="215" y="202"/>
+		<MouvementSouris t="1716649010328" x="215" y="203"/>
+		<MouvementSouris t="1716649010339" x="215" y="203"/>
+		<MouvementSouris t="1716649010353" x="215" y="204"/>
+		<MouvementSouris t="1716649010360" x="215" y="204"/>
+		<MouvementSouris t="1716649010369" x="215" y="204"/>
+		<MouvementSouris t="1716649010382" x="215" y="205"/>
+		<MouvementSouris t="1716649010392" x="215" y="205"/>
+		<MouvementSouris t="1716649010406" x="215" y="205"/>
+		<MouvementSouris t="1716649010413" x="215" y="206"/>
+		<MouvementSouris t="1716649010419" x="215" y="206"/>
+		<MouvementSouris t="1716649010429" x="215" y="206"/>
+		<MouvementSouris t="1716649010437" x="215" y="206"/>
+		<MouvementSouris t="1716649010446" x="215" y="207"/>
+		<MouvementSouris t="1716649010462" x="215" y="207"/>
+		<MouvementSouris t="1716649010470" x="215" y="208"/>
+		<SelectionCaractere name=" " x="212" y="211" xSouris="215" ySouris="208" isCorrect="true" isPredicted="false" t="1716649010571"/>
+		<Prediction t="1716649010572">
+			<ResultatPrediction letter="D" position="0"/>
+			<ResultatPrediction letter="C" position="1"/>
+			<ResultatPrediction letter="P" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649010956" x="213" y="203"/>
+		<MouvementSouris t="1716649010962" x="212" y="199"/>
+		<MouvementSouris t="1716649010971" x="210" y="194"/>
+		<MouvementSouris t="1716649010983" x="207" y="183"/>
+		<MouvementSouris t="1716649010990" x="206" y="179"/>
+		<MouvementSouris t="1716649011001" x="206" y="177"/>
+		<MouvementSouris t="1716649011015" x="204" y="172"/>
+		<MouvementSouris t="1716649011022" x="203" y="169"/>
+		<MouvementSouris t="1716649011028" x="202" y="166"/>
+		<MouvementSouris t="1716649011035" x="201" y="164"/>
+		<MouvementSouris t="1716649011042" x="200" y="161"/>
+		<MouvementSouris t="1716649011049" x="198" y="158"/>
+		<MouvementSouris t="1716649011055" x="197" y="155"/>
+		<MouvementSouris t="1716649011063" x="197" y="153"/>
+		<MouvementSouris t="1716649011069" x="195" y="149"/>
+		<MouvementSouris t="1716649011075" x="194" y="145"/>
+		<MouvementSouris t="1716649011083" x="193" y="142"/>
+		<MouvementSouris t="1716649011090" x="191" y="138"/>
+		<MouvementSouris t="1716649011103" x="189" y="131"/>
+		<MouvementSouris t="1716649011112" x="188" y="129"/>
+		<MouvementSouris t="1716649011122" x="186" y="123"/>
+		<MouvementSouris t="1716649011133" x="185" y="120"/>
+		<MouvementSouris t="1716649011143" x="184" y="116"/>
+		<MouvementSouris t="1716649011154" x="183" y="114"/>
+		<MouvementSouris t="1716649011165" x="182" y="112"/>
+		<MouvementSouris t="1716649011176" x="180" y="109"/>
+		<MouvementSouris t="1716649011185" x="179" y="108"/>
+		<MouvementSouris t="1716649011195" x="179" y="107"/>
+		<MouvementSouris t="1716649011206" x="178" y="106"/>
+		<MouvementSouris t="1716649011213" x="177" y="104"/>
+		<MouvementSouris t="1716649011224" x="176" y="103"/>
+		<MouvementSouris t="1716649011236" x="175" y="102"/>
+		<MouvementSouris t="1716649011246" x="174" y="100"/>
+		<MouvementSouris t="1716649011256" x="174" y="99"/>
+		<MouvementSouris t="1716649011267" x="173" y="98"/>
+		<MouvementSouris t="1716649011273" x="173" y="98"/>
+		<MouvementSouris t="1716649011284" x="173" y="97"/>
+		<MouvementSouris t="1716649011295" x="172" y="96"/>
+		<MouvementSouris t="1716649011302" x="172" y="95"/>
+		<MouvementSouris t="1716649011316" x="172" y="95"/>
+		<MouvementSouris t="1716649011325" x="171" y="94"/>
+		<MouvementSouris t="1716649011334" x="171" y="94"/>
+		<MouvementSouris t="1716649011345" x="171" y="94"/>
+		<MouvementSouris t="1716649011354" x="171" y="93"/>
+		<MouvementSouris t="1716649011367" x="171" y="93"/>
+		<MouvementSouris t="1716649011376" x="171" y="93"/>
+		<SelectionCaractere name="V" x="170" y="94" xSouris="171" ySouris="93" isCorrect="true" isPredicted="false" t="1716649011479"/>
+		<Prediction t="1716649011480">
+			<ResultatPrediction letter="O" position="0"/>
+			<ResultatPrediction letter="I" position="1"/>
+			<ResultatPrediction letter="E" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649011816" x="172" y="95"/>
+		<MouvementSouris t="1716649011825" x="174" y="99"/>
+		<MouvementSouris t="1716649011835" x="176" y="104"/>
+		<MouvementSouris t="1716649011849" x="181" y="115"/>
+		<MouvementSouris t="1716649011861" x="187" y="128"/>
+		<MouvementSouris t="1716649011874" x="190" y="135"/>
+		<MouvementSouris t="1716649011887" x="191" y="139"/>
+		<MouvementSouris t="1716649011900" x="193" y="142"/>
+		<MouvementSouris t="1716649011910" x="193" y="144"/>
+		<MouvementSouris t="1716649011916" x="194" y="145"/>
+		<MouvementSouris t="1716649011924" x="195" y="146"/>
+		<MouvementSouris t="1716649011930" x="195" y="147"/>
+		<MouvementSouris t="1716649011937" x="196" y="148"/>
+		<MouvementSouris t="1716649011944" x="197" y="149"/>
+		<MouvementSouris t="1716649011951" x="198" y="150"/>
+		<MouvementSouris t="1716649011958" x="198" y="150"/>
+		<MouvementSouris t="1716649011967" x="199" y="152"/>
+		<MouvementSouris t="1716649011973" x="200" y="152"/>
+		<MouvementSouris t="1716649011980" x="200" y="153"/>
+		<MouvementSouris t="1716649011987" x="201" y="153"/>
+		<MouvementSouris t="1716649011995" x="201" y="154"/>
+		<MouvementSouris t="1716649012007" x="202" y="154"/>
+		<MouvementSouris t="1716649012018" x="203" y="156"/>
+		<MouvementSouris t="1716649012027" x="203" y="156"/>
+		<MouvementSouris t="1716649012037" x="204" y="157"/>
+		<MouvementSouris t="1716649012044" x="204" y="157"/>
+		<MouvementSouris t="1716649012053" x="205" y="158"/>
+		<MouvementSouris t="1716649012064" x="205" y="158"/>
+		<MouvementSouris t="1716649012077" x="205" y="158"/>
+		<SelectionCaractere name="I" x="212" y="164" xSouris="205" ySouris="158" isCorrect="true" isPredicted="true" t="1716649012175"/>
+		<Prediction t="1716649012176">
+			<ResultatPrediction letter="S" position="0"/>
+			<ResultatPrediction letter="V" position="1"/>
+			<ResultatPrediction letter="E" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649012421" x="206" y="158"/>
+		<MouvementSouris t="1716649012428" x="207" y="159"/>
+		<MouvementSouris t="1716649012435" x="208" y="160"/>
+		<MouvementSouris t="1716649012441" x="209" y="160"/>
+		<MouvementSouris t="1716649012449" x="210" y="161"/>
+		<MouvementSouris t="1716649012458" x="212" y="162"/>
+		<MouvementSouris t="1716649012470" x="214" y="164"/>
+		<MouvementSouris t="1716649012482" x="216" y="165"/>
+		<MouvementSouris t="1716649012495" x="218" y="166"/>
+		<MouvementSouris t="1716649012508" x="221" y="168"/>
+		<MouvementSouris t="1716649012518" x="224" y="170"/>
+		<MouvementSouris t="1716649012525" x="226" y="170"/>
+		<MouvementSouris t="1716649012534" x="227" y="171"/>
+		<MouvementSouris t="1716649012542" x="229" y="172"/>
+		<MouvementSouris t="1716649012552" x="231" y="173"/>
+		<MouvementSouris t="1716649012560" x="234" y="175"/>
+		<MouvementSouris t="1716649012570" x="235" y="176"/>
+		<MouvementSouris t="1716649012580" x="238" y="177"/>
+		<MouvementSouris t="1716649012586" x="240" y="178"/>
+		<MouvementSouris t="1716649012593" x="241" y="178"/>
+		<MouvementSouris t="1716649012601" x="243" y="179"/>
+		<MouvementSouris t="1716649012608" x="244" y="179"/>
+		<MouvementSouris t="1716649012616" x="246" y="180"/>
+		<MouvementSouris t="1716649012623" x="247" y="180"/>
+		<MouvementSouris t="1716649012630" x="248" y="181"/>
+		<MouvementSouris t="1716649012637" x="250" y="181"/>
+		<MouvementSouris t="1716649012644" x="251" y="181"/>
+		<MouvementSouris t="1716649012650" x="252" y="182"/>
+		<MouvementSouris t="1716649012661" x="253" y="182"/>
+		<MouvementSouris t="1716649012672" x="255" y="182"/>
+		<MouvementSouris t="1716649012683" x="257" y="183"/>
+		<MouvementSouris t="1716649012694" x="258" y="183"/>
+		<MouvementSouris t="1716649012704" x="259" y="184"/>
+		<MouvementSouris t="1716649012715" x="260" y="184"/>
+		<MouvementSouris t="1716649012725" x="261" y="184"/>
+		<MouvementSouris t="1716649012732" x="262" y="185"/>
+		<MouvementSouris t="1716649012746" x="263" y="185"/>
+		<MouvementSouris t="1716649012755" x="263" y="185"/>
+		<MouvementSouris t="1716649012765" x="264" y="185"/>
+		<MouvementSouris t="1716649012772" x="265" y="185"/>
+		<SelectionCaractere name="E" x="255" y="188" xSouris="265" ySouris="185" isCorrect="true" isPredicted="true" t="1716649012856"/>
+		<Prediction t="1716649012857">
+			<ResultatPrediction letter="N" position="0"/>
+			<ResultatPrediction letter="I" position="1"/>
+			<ResultatPrediction letter="," position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649013261" x="261" y="185"/>
+		<MouvementSouris t="1716649013274" x="252" y="186"/>
+		<MouvementSouris t="1716649013282" x="248" y="186"/>
+		<MouvementSouris t="1716649013289" x="244" y="186"/>
+		<MouvementSouris t="1716649013297" x="241" y="186"/>
+		<MouvementSouris t="1716649013304" x="236" y="186"/>
+		<MouvementSouris t="1716649013315" x="229" y="187"/>
+		<MouvementSouris t="1716649013323" x="226" y="187"/>
+		<MouvementSouris t="1716649013329" x="223" y="187"/>
+		<MouvementSouris t="1716649013337" x="221" y="187"/>
+		<MouvementSouris t="1716649013346" x="219" y="187"/>
+		<MouvementSouris t="1716649013353" x="217" y="188"/>
+		<MouvementSouris t="1716649013360" x="215" y="188"/>
+		<MouvementSouris t="1716649013369" x="213" y="188"/>
+		<MouvementSouris t="1716649013377" x="212" y="188"/>
+		<MouvementSouris t="1716649013386" x="210" y="189"/>
+		<MouvementSouris t="1716649013393" x="209" y="189"/>
+		<MouvementSouris t="1716649013401" x="208" y="189"/>
+		<MouvementSouris t="1716649013411" x="207" y="189"/>
+		<MouvementSouris t="1716649013420" x="206" y="190"/>
+		<MouvementSouris t="1716649013428" x="205" y="190"/>
+		<MouvementSouris t="1716649013439" x="204" y="190"/>
+		<MouvementSouris t="1716649013451" x="204" y="190"/>
+		<MouvementSouris t="1716649013458" x="202" y="191"/>
+		<MouvementSouris t="1716649013469" x="201" y="191"/>
+		<MouvementSouris t="1716649013483" x="200" y="192"/>
+		<MouvementSouris t="1716649013489" x="199" y="192"/>
+		<MouvementSouris t="1716649013499" x="199" y="192"/>
+		<MouvementSouris t="1716649013510" x="199" y="192"/>
+		<MouvementSouris t="1716649013520" x="198" y="193"/>
+		<MouvementSouris t="1716649013530" x="197" y="193"/>
+		<MouvementSouris t="1716649013543" x="196" y="194"/>
+		<MouvementSouris t="1716649013551" x="196" y="194"/>
+		<MouvementSouris t="1716649013562" x="195" y="194"/>
+		<MouvementSouris t="1716649013571" x="194" y="195"/>
+		<MouvementSouris t="1716649013582" x="193" y="195"/>
+		<MouvementSouris t="1716649013596" x="193" y="195"/>
+		<MouvementSouris t="1716649013602" x="192" y="196"/>
+		<MouvementSouris t="1716649013610" x="191" y="196"/>
+		<MouvementSouris t="1716649013619" x="191" y="197"/>
+		<MouvementSouris t="1716649013628" x="190" y="197"/>
+		<MouvementSouris t="1716649013635" x="190" y="198"/>
+		<MouvementSouris t="1716649013646" x="189" y="198"/>
+		<MouvementSouris t="1716649013648" x="189" y="199"/>
+		<MouvementSouris t="1716649013654" x="188" y="199"/>
+		<MouvementSouris t="1716649013668" x="187" y="200"/>
+		<MouvementSouris t="1716649013676" x="186" y="201"/>
+		<MouvementSouris t="1716649013689" x="186" y="202"/>
+		<MouvementSouris t="1716649013698" x="186" y="202"/>
+		<MouvementSouris t="1716649013708" x="185" y="204"/>
+		<MouvementSouris t="1716649013719" x="185" y="205"/>
+		<MouvementSouris t="1716649013731" x="184" y="206"/>
+		<MouvementSouris t="1716649013739" x="184" y="207"/>
+		<MouvementSouris t="1716649013749" x="184" y="208"/>
+		<MouvementSouris t="1716649013758" x="184" y="210"/>
+		<MouvementSouris t="1716649013767" x="184" y="212"/>
+		<MouvementSouris t="1716649013777" x="185" y="214"/>
+		<MouvementSouris t="1716649013777" x="186" y="217"/>
+		<MouvementSouris t="1716649013787" x="188" y="219"/>
+		<MouvementSouris t="1716649013795" x="189" y="223"/>
+		<MouvementSouris t="1716649013805" x="192" y="227"/>
+		<MouvementSouris t="1716649013817" x="199" y="235"/>
+		<MouvementSouris t="1716649013827" x="206" y="244"/>
+		<MouvementSouris t="1716649013839" x="208" y="247"/>
+		<MouvementSouris t="1716649013847" x="214" y="254"/>
+		<MouvementSouris t="1716649013857" x="215" y="256"/>
+		<MouvementSouris t="1716649013867" x="219" y="260"/>
+		<MouvementSouris t="1716649013879" x="221" y="261"/>
+		<MouvementSouris t="1716649013885" x="222" y="262"/>
+		<MouvementSouris t="1716649013897" x="224" y="264"/>
+		<MouvementSouris t="1716649013905" x="225" y="265"/>
+		<MouvementSouris t="1716649013913" x="225" y="265"/>
+		<MouvementSouris t="1716649013923" x="226" y="266"/>
+		<MouvementSouris t="1716649013937" x="227" y="267"/>
+		<MouvementSouris t="1716649013945" x="229" y="268"/>
+		<MouvementSouris t="1716649013958" x="232" y="269"/>
+		<MouvementSouris t="1716649013970" x="233" y="269"/>
+		<MouvementSouris t="1716649013970" x="234" y="269"/>
+		<MouvementSouris t="1716649013980" x="235" y="269"/>
+		<MouvementSouris t="1716649013990" x="237" y="269"/>
+		<MouvementSouris t="1716649013997" x="239" y="269"/>
+		<MouvementSouris t="1716649014006" x="241" y="269"/>
+		<MouvementSouris t="1716649014016" x="243" y="269"/>
+		<MouvementSouris t="1716649014025" x="247" y="268"/>
+		<MouvementSouris t="1716649014035" x="250" y="267"/>
+		<MouvementSouris t="1716649014046" x="254" y="266"/>
+		<MouvementSouris t="1716649014054" x="256" y="265"/>
+		<MouvementSouris t="1716649014063" x="259" y="263"/>
+		<MouvementSouris t="1716649014071" x="261" y="262"/>
+		<MouvementSouris t="1716649014083" x="266" y="259"/>
+		<MouvementSouris t="1716649014091" x="269" y="257"/>
+		<MouvementSouris t="1716649014104" x="271" y="255"/>
+		<MouvementSouris t="1716649014115" x="276" y="250"/>
+		<MouvementSouris t="1716649014124" x="281" y="246"/>
+		<MouvementSouris t="1716649014133" x="283" y="244"/>
+		<MouvementSouris t="1716649014142" x="287" y="240"/>
+		<MouvementSouris t="1716649014150" x="290" y="238"/>
+		<MouvementSouris t="1716649014164" x="293" y="234"/>
+		<MouvementSouris t="1716649014176" x="295" y="232"/>
+		<MouvementSouris t="1716649014186" x="298" y="229"/>
+		<MouvementSouris t="1716649014198" x="302" y="225"/>
+		<MouvementSouris t="1716649014205" x="303" y="224"/>
+		<MouvementSouris t="1716649014214" x="304" y="222"/>
+		<MouvementSouris t="1716649014224" x="306" y="220"/>
+		<MouvementSouris t="1716649014232" x="306" y="219"/>
+		<MouvementSouris t="1716649014245" x="308" y="218"/>
+		<MouvementSouris t="1716649014255" x="308" y="217"/>
+		<MouvementSouris t="1716649014263" x="309" y="216"/>
+		<MouvementSouris t="1716649014273" x="310" y="215"/>
+		<MouvementSouris t="1716649014283" x="310" y="214"/>
+		<MouvementSouris t="1716649014291" x="310" y="213"/>
+		<MouvementSouris t="1716649014304" x="311" y="213"/>
+		<SelectionCaractere name="U" x="297" y="211" xSouris="311" ySouris="213" isCorrect="true" isPredicted="false" t="1716649014391"/>
+		<Prediction t="1716649014392">
+			<ResultatPrediction letter="X" position="0"/>
+		</Prediction>
+		<MouvementSouris t="1716649014824" x="308" y="213"/>
+		<MouvementSouris t="1716649014830" x="303" y="212"/>
+		<MouvementSouris t="1716649014838" x="296" y="211"/>
+		<MouvementSouris t="1716649014845" x="291" y="211"/>
+		<MouvementSouris t="1716649014852" x="285" y="210"/>
+		<MouvementSouris t="1716649014859" x="278" y="210"/>
+		<MouvementSouris t="1716649014866" x="270" y="209"/>
+		<MouvementSouris t="1716649014874" x="263" y="208"/>
+		<MouvementSouris t="1716649014882" x="258" y="207"/>
+		<MouvementSouris t="1716649014889" x="253" y="206"/>
+		<MouvementSouris t="1716649014898" x="248" y="206"/>
+		<MouvementSouris t="1716649014905" x="243" y="206"/>
+		<MouvementSouris t="1716649014913" x="231" y="205"/>
+		<MouvementSouris t="1716649014921" x="224" y="204"/>
+		<MouvementSouris t="1716649014928" x="219" y="204"/>
+		<MouvementSouris t="1716649014936" x="213" y="204"/>
+		<MouvementSouris t="1716649014945" x="209" y="204"/>
+		<MouvementSouris t="1716649014955" x="203" y="204"/>
+		<MouvementSouris t="1716649014965" x="200" y="203"/>
+		<MouvementSouris t="1716649014973" x="199" y="203"/>
+		<MouvementSouris t="1716649014983" x="195" y="203"/>
+		<MouvementSouris t="1716649014993" x="193" y="203"/>
+		<MouvementSouris t="1716649015003" x="190" y="202"/>
+		<MouvementSouris t="1716649015015" x="188" y="202"/>
+		<MouvementSouris t="1716649015028" x="186" y="202"/>
+		<MouvementSouris t="1716649015039" x="183" y="202"/>
+		<MouvementSouris t="1716649015046" x="182" y="202"/>
+		<MouvementSouris t="1716649015054" x="181" y="202"/>
+		<MouvementSouris t="1716649015066" x="180" y="201"/>
+		<MouvementSouris t="1716649015074" x="179" y="201"/>
+		<MouvementSouris t="1716649015083" x="178" y="201"/>
+		<MouvementSouris t="1716649015091" x="177" y="201"/>
+		<MouvementSouris t="1716649015093" x="177" y="201"/>
+		<MouvementSouris t="1716649015103" x="176" y="201"/>
+		<MouvementSouris t="1716649015114" x="175" y="201"/>
+		<MouvementSouris t="1716649015129" x="174" y="200"/>
+		<MouvementSouris t="1716649015138" x="173" y="200"/>
+		<MouvementSouris t="1716649015148" x="173" y="200"/>
+		<MouvementSouris t="1716649015158" x="173" y="200"/>
+		<MouvementSouris t="1716649015165" x="172" y="200"/>
+		<MouvementSouris t="1716649015186" x="172" y="200"/>
+		<SelectionCaractere name="X" x="170" y="188" xSouris="172" ySouris="200" isCorrect="true" isPredicted="true" t="1716649015307"/>
+		<Prediction t="1716649015307">
+			<ResultatPrediction letter="H" position="0"/>
+			<ResultatPrediction letter="." position="1"/>
+			<ResultatPrediction letter="," position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649016000" x="172" y="200"/>
+		<MouvementSouris t="1716649016008" x="173" y="200"/>
+		<MouvementSouris t="1716649016014" x="174" y="201"/>
+		<MouvementSouris t="1716649016023" x="176" y="202"/>
+		<MouvementSouris t="1716649016034" x="177" y="202"/>
+		<MouvementSouris t="1716649016034" x="178" y="203"/>
+		<MouvementSouris t="1716649016041" x="180" y="203"/>
+		<MouvementSouris t="1716649016048" x="181" y="204"/>
+		<MouvementSouris t="1716649016055" x="182" y="204"/>
+		<MouvementSouris t="1716649016062" x="183" y="205"/>
+		<MouvementSouris t="1716649016069" x="184" y="205"/>
+		<MouvementSouris t="1716649016077" x="185" y="206"/>
+		<MouvementSouris t="1716649016084" x="186" y="206"/>
+		<MouvementSouris t="1716649016091" x="186" y="206"/>
+		<MouvementSouris t="1716649016098" x="187" y="207"/>
+		<MouvementSouris t="1716649016105" x="188" y="207"/>
+		<MouvementSouris t="1716649016115" x="189" y="207"/>
+		<MouvementSouris t="1716649016128" x="190" y="208"/>
+		<MouvementSouris t="1716649016136" x="191" y="208"/>
+		<MouvementSouris t="1716649016148" x="192" y="209"/>
+		<MouvementSouris t="1716649016157" x="193" y="209"/>
+		<MouvementSouris t="1716649016168" x="194" y="209"/>
+		<MouvementSouris t="1716649016184" x="195" y="210"/>
+		<MouvementSouris t="1716649016194" x="195" y="210"/>
+		<MouvementSouris t="1716649016201" x="195" y="211"/>
+		<MouvementSouris t="1716649016208" x="195" y="211"/>
+		<MouvementSouris t="1716649016221" x="196" y="211"/>
+		<MouvementSouris t="1716649016228" x="196" y="211"/>
+		<MouvementSouris t="1716649016239" x="196" y="211"/>
+		<MouvementSouris t="1716649016250" x="196" y="211"/>
+		<MouvementSouris t="1716649016259" x="197" y="211"/>
+		<MouvementSouris t="1716649016270" x="197" y="211"/>
+		<MouvementSouris t="1716649016282" x="198" y="211"/>
+		<MouvementSouris t="1716649016289" x="198" y="211"/>
+		<MouvementSouris t="1716649016303" x="198" y="211"/>
+		<MouvementSouris t="1716649016413" x="198" y="211"/>
+		<MouvementSouris t="1716649016502" x="198" y="211"/>
+		<SelectionCaractere name=" " x="212" y="211" xSouris="198" ySouris="211" isCorrect="true" isPredicted="false" t="1716649016613"/>
+		<Prediction t="1716649016614">
+			<ResultatPrediction letter="D" position="0"/>
+			<ResultatPrediction letter="C" position="1"/>
+			<ResultatPrediction letter="P" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649016929" x="199" y="212"/>
+		<MouvementSouris t="1716649016938" x="201" y="215"/>
+		<MouvementSouris t="1716649016949" x="204" y="225"/>
+		<MouvementSouris t="1716649016965" x="208" y="237"/>
+		<MouvementSouris t="1716649016977" x="209" y="241"/>
+		<MouvementSouris t="1716649016979" x="210" y="246"/>
+		<MouvementSouris t="1716649016992" x="211" y="249"/>
+		<MouvementSouris t="1716649017003" x="212" y="254"/>
+		<MouvementSouris t="1716649017015" x="213" y="258"/>
+		<MouvementSouris t="1716649017023" x="213" y="259"/>
+		<MouvementSouris t="1716649017032" x="213" y="261"/>
+		<MouvementSouris t="1716649017039" x="214" y="262"/>
+		<MouvementSouris t="1716649017047" x="214" y="263"/>
+		<MouvementSouris t="1716649017054" x="214" y="264"/>
+		<MouvementSouris t="1716649017062" x="214" y="265"/>
+		<MouvementSouris t="1716649017069" x="214" y="266"/>
+		<MouvementSouris t="1716649017078" x="214" y="266"/>
+		<MouvementSouris t="1716649017084" x="214" y="267"/>
+		<MouvementSouris t="1716649017093" x="214" y="267"/>
+		<MouvementSouris t="1716649017101" x="214" y="269"/>
+		<MouvementSouris t="1716649017109" x="214" y="269"/>
+		<MouvementSouris t="1716649017116" x="214" y="269"/>
+		<MouvementSouris t="1716649017125" x="214" y="270"/>
+		<MouvementSouris t="1716649017136" x="214" y="271"/>
+		<MouvementSouris t="1716649017151" x="214" y="272"/>
+		<MouvementSouris t="1716649017159" x="214" y="272"/>
+		<MouvementSouris t="1716649017168" x="214" y="272"/>
+		<MouvementSouris t="1716649017177" x="214" y="273"/>
+		<MouvementSouris t="1716649017188" x="214" y="273"/>
+		<MouvementSouris t="1716649017198" x="214" y="273"/>
+		<MouvementSouris t="1716649017207" x="214" y="274"/>
+		<MouvementSouris t="1716649017219" x="214" y="274"/>
+		<MouvementSouris t="1716649017229" x="214" y="274"/>
+		<MouvementSouris t="1716649017239" x="214" y="275"/>
+		<MouvementSouris t="1716649017249" x="214" y="275"/>
+		<MouvementSouris t="1716649017259" x="214" y="275"/>
+		<MouvementSouris t="1716649017269" x="214" y="275"/>
+		<MouvementSouris t="1716649017280" x="214" y="276"/>
+		<MouvementSouris t="1716649017280" x="214" y="276"/>
+		<MouvementSouris t="1716649017383" x="214" y="276"/>
+		<MouvementSouris t="1716649017391" x="214" y="277"/>
+		<MouvementSouris t="1716649017397" x="214" y="277"/>
+		<MouvementSouris t="1716649017404" x="214" y="278"/>
+		<MouvementSouris t="1716649017411" x="214" y="278"/>
+		<MouvementSouris t="1716649017419" x="214" y="278"/>
+		<MouvementSouris t="1716649017429" x="214" y="279"/>
+		<MouvementSouris t="1716649017440" x="214" y="279"/>
+		<MouvementSouris t="1716649017454" x="214" y="281"/>
+		<MouvementSouris t="1716649017462" x="214" y="281"/>
+		<MouvementSouris t="1716649017471" x="214" y="281"/>
+		<MouvementSouris t="1716649017481" x="214" y="282"/>
+		<MouvementSouris t="1716649017489" x="214" y="283"/>
+		<MouvementSouris t="1716649017496" x="214" y="283"/>
+		<MouvementSouris t="1716649017503" x="214" y="283"/>
+		<MouvementSouris t="1716649017510" x="214" y="284"/>
+		<MouvementSouris t="1716649017519" x="214" y="284"/>
+		<MouvementSouris t="1716649017527" x="214" y="285"/>
+		<MouvementSouris t="1716649017535" x="214" y="285"/>
+		<MouvementSouris t="1716649017549" x="214" y="286"/>
+		<MouvementSouris t="1716649017555" x="214" y="286"/>
+		<MouvementSouris t="1716649017563" x="214" y="286"/>
+		<MouvementSouris t="1716649017576" x="214" y="286"/>
+		<MouvementSouris t="1716649017583" x="214" y="287"/>
+		<MouvementSouris t="1716649017597" x="214" y="287"/>
+		<MouvementSouris t="1716649017603" x="214" y="287"/>
+		<MouvementSouris t="1716649017611" x="214" y="287"/>
+		<MouvementSouris t="1716649017625" x="214" y="288"/>
+		<MouvementSouris t="1716649017631" x="214" y="288"/>
+		<MouvementSouris t="1716649017638" x="214" y="288"/>
+		<MouvementSouris t="1716649017652" x="214" y="288"/>
+		<MouvementSouris t="1716649017659" x="214" y="288"/>
+		<MouvementSouris t="1716649017673" x="214" y="289"/>
+		<MouvementSouris t="1716649017700" x="214" y="289"/>
+		<SelectionCaractere name="M" x="212" y="305" xSouris="214" ySouris="289" isCorrect="true" isPredicted="false" t="1716649017709"/>
+		<Prediction t="1716649017710">
+			<ResultatPrediction letter="A" position="0"/>
+			<ResultatPrediction letter="O" position="1"/>
+			<ResultatPrediction letter="E" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649017961" x="214" y="288"/>
+		<MouvementSouris t="1716649017970" x="214" y="287"/>
+		<MouvementSouris t="1716649017985" x="214" y="284"/>
+		<MouvementSouris t="1716649018001" x="214" y="282"/>
+		<MouvementSouris t="1716649018019" x="214" y="279"/>
+		<MouvementSouris t="1716649018033" x="214" y="277"/>
+		<MouvementSouris t="1716649018045" x="214" y="274"/>
+		<MouvementSouris t="1716649018054" x="214" y="274"/>
+		<MouvementSouris t="1716649018065" x="214" y="272"/>
+		<MouvementSouris t="1716649018073" x="214" y="271"/>
+		<MouvementSouris t="1716649018081" x="214" y="270"/>
+		<MouvementSouris t="1716649018090" x="214" y="269"/>
+		<MouvementSouris t="1716649018100" x="214" y="268"/>
+		<MouvementSouris t="1716649018108" x="214" y="268"/>
+		<MouvementSouris t="1716649018117" x="214" y="267"/>
+		<MouvementSouris t="1716649018127" x="214" y="266"/>
+		<MouvementSouris t="1716649018182" x="214" y="266"/>
+		<MouvementSouris t="1716649018196" x="214" y="265"/>
+		<MouvementSouris t="1716649018209" x="214" y="265"/>
+		<MouvementSouris t="1716649018219" x="214" y="265"/>
+		<MouvementSouris t="1716649018234" x="214" y="265"/>
+		<MouvementSouris t="1716649018246" x="214" y="264"/>
+		<SelectionCaractere name="A" x="212" y="258" xSouris="214" ySouris="264" isCorrect="true" isPredicted="false" t="1716649018259"/>
+		<Prediction t="1716649018260">
+			<ResultatPrediction letter="I" position="0"/>
+			<ResultatPrediction letter="R" position="1"/>
+			<ResultatPrediction letter="N" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649018443" x="212" y="263"/>
+		<MouvementSouris t="1716649018457" x="208" y="260"/>
+		<MouvementSouris t="1716649018466" x="204" y="258"/>
+		<MouvementSouris t="1716649018479" x="199" y="254"/>
+		<MouvementSouris t="1716649018494" x="194" y="251"/>
+		<MouvementSouris t="1716649018510" x="189" y="248"/>
+		<MouvementSouris t="1716649018528" x="184" y="244"/>
+		<MouvementSouris t="1716649018536" x="182" y="244"/>
+		<MouvementSouris t="1716649018545" x="181" y="243"/>
+		<MouvementSouris t="1716649018554" x="179" y="241"/>
+		<MouvementSouris t="1716649018562" x="178" y="241"/>
+		<MouvementSouris t="1716649018571" x="177" y="240"/>
+		<MouvementSouris t="1716649018579" x="177" y="240"/>
+		<MouvementSouris t="1716649018589" x="175" y="239"/>
+		<MouvementSouris t="1716649018597" x="175" y="238"/>
+		<MouvementSouris t="1716649018606" x="174" y="238"/>
+		<MouvementSouris t="1716649018615" x="174" y="237"/>
+		<MouvementSouris t="1716649018624" x="173" y="236"/>
+		<MouvementSouris t="1716649018632" x="172" y="236"/>
+		<MouvementSouris t="1716649018639" x="171" y="235"/>
+		<MouvementSouris t="1716649018650" x="171" y="235"/>
+		<MouvementSouris t="1716649018658" x="170" y="234"/>
+		<MouvementSouris t="1716649018670" x="170" y="234"/>
+		<MouvementSouris t="1716649018677" x="169" y="233"/>
+		<MouvementSouris t="1716649018685" x="169" y="233"/>
+		<MouvementSouris t="1716649018697" x="169" y="233"/>
+		<MouvementSouris t="1716649018704" x="168" y="233"/>
+		<SelectionCaractere name="I" x="170" y="235" xSouris="168" ySouris="233" isCorrect="true" isPredicted="false" t="1716649018782"/>
+		<Prediction t="1716649018783">
+			<ResultatPrediction letter="S" position="0"/>
+			<ResultatPrediction letter="T" position="1"/>
+			<ResultatPrediction letter="N" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649019057" x="169" y="231"/>
+		<MouvementSouris t="1716649019069" x="169" y="229"/>
+		<MouvementSouris t="1716649019083" x="170" y="227"/>
+		<MouvementSouris t="1716649019092" x="170" y="226"/>
+		<MouvementSouris t="1716649019104" x="171" y="223"/>
+		<MouvementSouris t="1716649019117" x="171" y="221"/>
+		<MouvementSouris t="1716649019127" x="171" y="220"/>
+		<MouvementSouris t="1716649019137" x="171" y="219"/>
+		<MouvementSouris t="1716649019148" x="172" y="217"/>
+		<MouvementSouris t="1716649019159" x="172" y="216"/>
+		<MouvementSouris t="1716649019167" x="172" y="215"/>
+		<MouvementSouris t="1716649019174" x="173" y="214"/>
+		<MouvementSouris t="1716649019184" x="173" y="213"/>
+		<MouvementSouris t="1716649019195" x="174" y="211"/>
+		<MouvementSouris t="1716649019203" x="175" y="210"/>
+		<MouvementSouris t="1716649019214" x="176" y="209"/>
+		<MouvementSouris t="1716649019214" x="177" y="208"/>
+		<MouvementSouris t="1716649019221" x="180" y="206"/>
+		<MouvementSouris t="1716649019228" x="183" y="204"/>
+		<MouvementSouris t="1716649019235" x="187" y="202"/>
+		<MouvementSouris t="1716649019244" x="193" y="199"/>
+		<MouvementSouris t="1716649019253" x="200" y="196"/>
+		<MouvementSouris t="1716649019258" x="209" y="192"/>
+		<MouvementSouris t="1716649019265" x="215" y="190"/>
+		<MouvementSouris t="1716649019275" x="221" y="189"/>
+		<MouvementSouris t="1716649019283" x="232" y="186"/>
+		<MouvementSouris t="1716649019292" x="236" y="186"/>
+		<MouvementSouris t="1716649019301" x="239" y="185"/>
+		<MouvementSouris t="1716649019310" x="246" y="185"/>
+		<MouvementSouris t="1716649019317" x="248" y="185"/>
+		<MouvementSouris t="1716649019325" x="249" y="185"/>
+		<MouvementSouris t="1716649019336" x="251" y="185"/>
+		<MouvementSouris t="1716649019346" x="254" y="185"/>
+		<MouvementSouris t="1716649019355" x="255" y="185"/>
+		<MouvementSouris t="1716649019367" x="256" y="185"/>
+		<MouvementSouris t="1716649019375" x="257" y="185"/>
+		<MouvementSouris t="1716649019384" x="257" y="185"/>
+		<MouvementSouris t="1716649019394" x="258" y="185"/>
+		<MouvementSouris t="1716649019407" x="259" y="185"/>
+		<MouvementSouris t="1716649019416" x="260" y="185"/>
+		<MouvementSouris t="1716649019428" x="261" y="185"/>
+		<MouvementSouris t="1716649019435" x="261" y="185"/>
+		<MouvementSouris t="1716649019444" x="262" y="185"/>
+		<MouvementSouris t="1716649019455" x="262" y="185"/>
+		<MouvementSouris t="1716649019463" x="263" y="185"/>
+		<MouvementSouris t="1716649019475" x="263" y="185"/>
+		<MouvementSouris t="1716649019486" x="263" y="185"/>
+		<MouvementSouris t="1716649019494" x="263" y="184"/>
+		<MouvementSouris t="1716649019505" x="264" y="184"/>
+		<SelectionCaractere name="N" x="255" y="188" xSouris="264" ySouris="184" isCorrect="true" isPredicted="true" t="1716649019587"/>
+		<Prediction t="1716649019588">
+			<ResultatPrediction letter="S" position="0"/>
+			<ResultatPrediction letter="T" position="1"/>
+			<ResultatPrediction letter="," position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649019778" x="261" y="184"/>
+		<MouvementSouris t="1716649019785" x="258" y="183"/>
+		<MouvementSouris t="1716649019799" x="251" y="182"/>
+		<MouvementSouris t="1716649019807" x="249" y="181"/>
+		<MouvementSouris t="1716649019820" x="247" y="181"/>
+		<MouvementSouris t="1716649019820" x="245" y="180"/>
+		<MouvementSouris t="1716649019831" x="243" y="179"/>
+		<MouvementSouris t="1716649019841" x="239" y="178"/>
+		<MouvementSouris t="1716649019847" x="238" y="177"/>
+		<MouvementSouris t="1716649019855" x="236" y="177"/>
+		<MouvementSouris t="1716649019866" x="234" y="176"/>
+		<MouvementSouris t="1716649019875" x="231" y="175"/>
+		<MouvementSouris t="1716649019882" x="230" y="175"/>
+		<MouvementSouris t="1716649019890" x="228" y="174"/>
+		<MouvementSouris t="1716649019898" x="227" y="174"/>
+		<MouvementSouris t="1716649019907" x="226" y="173"/>
+		<MouvementSouris t="1716649019916" x="224" y="173"/>
+		<MouvementSouris t="1716649019923" x="223" y="172"/>
+		<MouvementSouris t="1716649019929" x="223" y="172"/>
+		<MouvementSouris t="1716649019936" x="222" y="172"/>
+		<MouvementSouris t="1716649019944" x="221" y="172"/>
+		<MouvementSouris t="1716649019950" x="220" y="171"/>
+		<MouvementSouris t="1716649019958" x="219" y="171"/>
+		<MouvementSouris t="1716649019965" x="219" y="171"/>
+		<MouvementSouris t="1716649019972" x="218" y="170"/>
+		<MouvementSouris t="1716649019980" x="217" y="170"/>
+		<MouvementSouris t="1716649019988" x="217" y="170"/>
+		<MouvementSouris t="1716649020001" x="216" y="169"/>
+		<MouvementSouris t="1716649020012" x="215" y="169"/>
+		<MouvementSouris t="1716649020023" x="214" y="169"/>
+		<MouvementSouris t="1716649020034" x="214" y="169"/>
+		<MouvementSouris t="1716649020034" x="214" y="168"/>
+		<MouvementSouris t="1716649020047" x="213" y="168"/>
+		<MouvementSouris t="1716649020060" x="213" y="168"/>
+		<MouvementSouris t="1716649020068" x="212" y="167"/>
+		<MouvementSouris t="1716649020074" x="212" y="167"/>
+		<SelectionCaractere name="T" x="212" y="164" xSouris="212" ySouris="167" isCorrect="true" isPredicted="true" t="1716649020172"/>
+		<Prediction t="1716649020173">
+			<ResultatPrediction letter="S" position="0"/>
+			<ResultatPrediction letter="E" position="1"/>
+			<ResultatPrediction letter="I" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649020542" x="212" y="167"/>
+		<MouvementSouris t="1716649020549" x="211" y="168"/>
+		<MouvementSouris t="1716649020557" x="210" y="168"/>
+		<MouvementSouris t="1716649020565" x="210" y="169"/>
+		<MouvementSouris t="1716649020577" x="210" y="169"/>
+		<MouvementSouris t="1716649020585" x="209" y="169"/>
+		<MouvementSouris t="1716649020592" x="209" y="170"/>
+		<MouvementSouris t="1716649020701" x="209" y="169"/>
+		<MouvementSouris t="1716649020707" x="209" y="169"/>
+		<MouvementSouris t="1716649020714" x="210" y="169"/>
+		<MouvementSouris t="1716649020729" x="211" y="169"/>
+		<MouvementSouris t="1716649020735" x="211" y="168"/>
+		<MouvementSouris t="1716649020742" x="212" y="168"/>
+		<MouvementSouris t="1716649020749" x="213" y="168"/>
+		<MouvementSouris t="1716649020756" x="213" y="168"/>
+		<MouvementSouris t="1716649020765" x="213" y="167"/>
+		<SelectionCaractere name="E" x="212" y="164" xSouris="213" ySouris="167" isCorrect="true" isPredicted="true" t="1716649020833"/>
+		<Prediction t="1716649020834">
+			<ResultatPrediction letter="S" position="0"/>
+			<ResultatPrediction letter="N" position="1"/>
+		</Prediction>
+		<SelectionCaractere name="N" x="212" y="164" xSouris="213" ySouris="167" isCorrect="true" isPredicted="true" t="1716649021287"/>
+		<Prediction t="1716649021288">
+			<ResultatPrediction letter="A" position="0"/>
+			<ResultatPrediction letter="U" position="1"/>
+			<ResultatPrediction letter="I" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649021830" x="211" y="168"/>
+		<MouvementSouris t="1716649021836" x="207" y="171"/>
+		<MouvementSouris t="1716649021844" x="204" y="173"/>
+		<MouvementSouris t="1716649021857" x="199" y="176"/>
+		<MouvementSouris t="1716649021865" x="197" y="178"/>
+		<MouvementSouris t="1716649021871" x="195" y="179"/>
+		<MouvementSouris t="1716649021885" x="193" y="181"/>
+		<MouvementSouris t="1716649021885" x="191" y="182"/>
+		<MouvementSouris t="1716649021894" x="189" y="183"/>
+		<MouvementSouris t="1716649021905" x="186" y="185"/>
+		<MouvementSouris t="1716649021913" x="185" y="186"/>
+		<MouvementSouris t="1716649021925" x="184" y="186"/>
+		<MouvementSouris t="1716649021929" x="183" y="187"/>
+		<MouvementSouris t="1716649021937" x="183" y="187"/>
+		<MouvementSouris t="1716649021946" x="182" y="187"/>
+		<MouvementSouris t="1716649021946" x="181" y="188"/>
+		<MouvementSouris t="1716649021953" x="180" y="189"/>
+		<MouvementSouris t="1716649021959" x="180" y="189"/>
+		<MouvementSouris t="1716649021967" x="179" y="189"/>
+		<MouvementSouris t="1716649021974" x="179" y="190"/>
+		<MouvementSouris t="1716649021988" x="178" y="190"/>
+		<MouvementSouris t="1716649021994" x="178" y="190"/>
+		<MouvementSouris t="1716649022001" x="177" y="191"/>
+		<MouvementSouris t="1716649022008" x="177" y="191"/>
+		<MouvementSouris t="1716649022022" x="177" y="191"/>
+		<SelectionCaractere name="A" x="170" y="188" xSouris="177" ySouris="191" isCorrect="true" isPredicted="true" t="1716649022106"/>
+		<Prediction t="1716649022106">
+			<ResultatPrediction letter="N" position="0"/>
+			<ResultatPrediction letter="I" position="2"/>
+		</Prediction>
+		<SelectionCaractere name="N" x="170" y="188" xSouris="177" ySouris="191" isCorrect="true" isPredicted="true" t="1716649022540"/>
+		<Prediction t="1716649022541">
+			<ResultatPrediction letter="T" position="0"/>
+			<ResultatPrediction letter="C" position="1"/>
+		</Prediction>
+		<SelectionCaractere name="T" x="170" y="188" xSouris="177" ySouris="191" isCorrect="true" isPredicted="true" t="1716649023014"/>
+		<Prediction t="1716649023015">
+			<ResultatPrediction letter="," position="0"/>
+			<ResultatPrediction letter="." position="1"/>
+			<ResultatPrediction letter="!" position="2"/>
+		</Prediction>
+		<MouvementSouris t="1716649023674" x="179" y="196"/>
+		<MouvementSouris t="1716649023680" x="186" y="210"/>
+		<MouvementSouris t="1716649023695" x="197" y="247"/>
+		<MouvementSouris t="1716649023701" x="200" y="266"/>
+		<MouvementSouris t="1716649023715" x="203" y="292"/>
+		<MouvementSouris t="1716649023721" x="203" y="306"/>
+		<MouvementSouris t="1716649023736" x="203" y="317"/>
+		<MouvementSouris t="1716649023736" x="203" y="327"/>
+		<MouvementSouris t="1716649023742" x="203" y="342"/>
+		<MouvementSouris t="1716649023756" x="203" y="351"/>
+		<MouvementSouris t="1716649023756" x="203" y="360"/>
+		<MouvementSouris t="1716649023763" x="203" y="368"/>
+		<MouvementSouris t="1716649023770" x="203" y="373"/>
+		<MouvementSouris t="1716649023780" x="203" y="376"/>
+		<MouvementSouris t="1716649023786" x="203" y="379"/>
+		<MouvementSouris t="1716649023792" x="203" y="380"/>
+		<MouvementSouris t="1716649023800" x="202" y="381"/>
+		<MouvementSouris t="1716649023807" x="202" y="382"/>
+		<MouvementSouris t="1716649023814" x="202" y="382"/>
+		<MouvementSouris t="1716649024100" x="202" y="383"/>
+		<MouvementSouris t="1716649024115" x="203" y="389"/>
+		<MouvementSouris t="1716649024121" x="204" y="394"/>
+		<MouvementSouris t="1716649024128" x="205" y="399"/>
+		<MouvementSouris t="1716649024141" x="206" y="408"/>
+		<MouvementSouris t="1716649024141" x="207" y="414"/>
+		<MouvementSouris t="1716649024149" x="209" y="421"/>
+		<MouvementSouris t="1716649024156" x="210" y="425"/>
+		<MouvementSouris t="1716649024162" x="211" y="430"/>
+		<MouvementSouris t="1716649024169" x="212" y="434"/>
+		<MouvementSouris t="1716649024176" x="212" y="437"/>
+		<MouvementSouris t="1716649024184" x="213" y="440"/>
+		<MouvementSouris t="1716649024191" x="214" y="443"/>
+		<MouvementSouris t="1716649024199" x="214" y="445"/>
+		<MouvementSouris t="1716649024205" x="214" y="447"/>
+		<MouvementSouris t="1716649024212" x="215" y="448"/>
+		<MouvementSouris t="1716649024218" x="215" y="450"/>
+		<MouvementSouris t="1716649024227" x="215" y="451"/>
+		<MouvementSouris t="1716649024237" x="215" y="452"/>
+		<MouvementSouris t="1716649024251" x="215" y="453"/>
+		<MouvementSouris t="1716649024259" x="215" y="454"/>
+		<MouvementSouris t="1716649024273" x="215" y="455"/>
+		<MouvementSouris t="1716649024281" x="215" y="456"/>
+		<MouvementSouris t="1716649024289" x="215" y="457"/>
+		<MouvementSouris t="1716649024300" x="215" y="457"/>
+		<MouvementSouris t="1716649024309" x="215" y="457"/>
+		<MouvementSouris t="1716649024318" x="215" y="458"/>
+		<MouvementSouris t="1716649024329" x="215" y="458"/>
+		<MouvementSouris t="1716649024339" x="215" y="458"/>
+		<MouvementSouris t="1716649024349" x="215" y="459"/>
+		<MouvementSouris t="1716649024360" x="215" y="459"/>
+	</Phrase>
+</ExpeKeyboard>

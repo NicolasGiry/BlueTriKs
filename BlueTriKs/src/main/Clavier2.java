@@ -43,7 +43,7 @@ public class Clavier2 extends JComponent implements Observer, MouseListener, Mou
 	private List<String> phrases;
     private JTextArea phraseArea;
     private JTextPane textPane;
-    private long timer = 60000, depart;
+    private long timer = 600000, depart;
     //                   10 min
     private int currentChar=0;
     private Mode mode;
@@ -197,8 +197,10 @@ public class Clavier2 extends JComponent implements Observer, MouseListener, Mou
         textPane.setText("");
         currentChar = 0;
         if (timeElapsed>=timer) {
-            LaunchSecondKeyboard(); 
-            return;
+            //LaunchSecondKeyboard(); 
+            //return;
+        	ExpeLogger.finSimulation();
+            System.exit(0);
         }
         long tempsRestant = (timer-timeElapsed);
         System.out.println("Temps restants : "+ tempsRestant / (60000) + " min " + (tempsRestant % (60000)) / 1000 + " sec " + tempsRestant % 1000 + " ms");
@@ -213,7 +215,7 @@ public class Clavier2 extends JComponent implements Observer, MouseListener, Mou
             oldLetters.add(letters.get(i));
             newLetters.add("-");
         }
-        pred = arbre.predictNext(false);
+        pred = arbre.predictNext(true);
         for (int i=0; i<oldLetters.size(); i++) {
             String currentLetter = oldLetters.get(i);
             for (int j=0; j<nbKeysPredicted && j<pred.size(); j++) {
@@ -259,10 +261,12 @@ public class Clavier2 extends JComponent implements Observer, MouseListener, Mou
             supp();
             return;
         }
-        arbre = arbre.goTo(letter);
-        if (arbre == null) {
-            reset();
-        }
+        Tree newArbre = arbre.goTo(letter);
+        if (newArbre == null) {
+            newArbre = predicteur.getRacine();
+            newArbre.setParent(arbre);
+        } 
+        arbre = newArbre;
     }
 
     public void reset() {
@@ -273,8 +277,6 @@ public class Clavier2 extends JComponent implements Observer, MouseListener, Mou
         Tree parent = arbre.getparent();
         if (parent != null) {
             arbre = parent;
-        } else {
-            reset();
         }
     }
 
@@ -334,31 +336,31 @@ public class Clavier2 extends JComponent implements Observer, MouseListener, Mou
         return true;
     }
 
-    private void LaunchSecondKeyboard() {
-        nbClavier--;
-        if (mode.equals(Mode.EXP)) {
-            switch(wp) {
-                case PRED:
-                    wp = ResultsWordPrediction.NO_PRED;
-                    break;
-                case NO_PRED:
-                    wp = ResultsWordPrediction.PRED;
-                    break;
-            }
-        }
-        if (nbClavier>0) {
-            JOptionPane.showMessageDialog(this, "Vous allez changer de clavier.\n\nAppuyer sur 'OK' quand vous êtes prêt.\n ", "Changement Clavier", JOptionPane.INFORMATION_MESSAGE);
-            clavierFrame.launchSecondKeyboard(mode, wp, nbPart);
-            return;
-        }
-        nbPart --;
-        if (nbPart>0) {
-            clavierFrame.launchKeyboardNewPart(mode, wp, nbPart);
-            return;
-        }
-        ExpeLogger.finSimulation();
-        System.exit(0);
-    }
+//    private void LaunchSecondKeyboard() {
+//        nbClavier--;
+//        if (mode.equals(Mode.EXP)) {
+//            switch(wp) {
+//                case PRED:
+//                    wp = ResultsWordPrediction.NO_PRED;
+//                    break;
+//                case NO_PRED:
+//                    wp = ResultsWordPrediction.PRED;
+//                    break;
+//            }
+//        }
+//        if (nbClavier>0) {
+//            JOptionPane.showMessageDialog(this, "Vous allez changer de clavier.\n\nAppuyer sur 'OK' quand vous êtes prêt.\n ", "Changement Clavier", JOptionPane.INFORMATION_MESSAGE);
+//            clavierFrame.launchSecondKeyboard(mode, wp, nbPart);
+//            return;
+//        }
+//        nbPart --;
+//        if (nbPart>0) {
+//            clavierFrame.launchKeyboardNewPart(mode, wp, nbPart);
+//            return;
+//        }
+//        ExpeLogger.finSimulation();
+//        System.exit(0);
+//    }
 
     public void paintComponent(Graphics g) {
 		super.paintComponent(g);
