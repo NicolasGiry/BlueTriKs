@@ -18,3 +18,6 @@ premier prototype :
 
 présentation :
 [Presentation orale BE.pdf](https://github.com/user-attachments/files/18389415/Presentation.orale.BE.pdf)
+
+Compte rendu : 
+[CompteRendu_BE_NicolasGIRY_22101162.pdf](https://github.com/user-attachments/files/18389523/CompteRendu_BE_NicolasGIRY_22101162.pdf)
