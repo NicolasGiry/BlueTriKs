@@ -15,3 +15,6 @@ https://github.com/NicolasGiry/BE-ClavierLogiciel-Prediction/assets/114723956/75
 
 premier prototype :
 ![Screenshot 2024-03-25 231542](https://github.com/NicolasGiry/BE-ClavierLogiciel-Prediction/assets/114723956/dfeabd96-a5b5-49fd-92f7-42cf5771a63c)
+
+présentation :
+[Presentation orale BE.pdf](https://github.com/user-attachments/files/18389415/Presentation.orale.BE.pdf)
